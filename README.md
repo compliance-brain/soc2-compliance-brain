@@ -1,8 +1,8 @@
-# Throughline Compliance Brain
+# Compliance Brain: the open SOC 2 program your AI agent can run
 
-**An open, AI-ready SOC 2 program for early-stage companies.** Give it to your AI agent and it builds a lean compliance program that fits how your company actually works: control list, policies, risk and vendor registers, records and evidence plan, all as plain files you own.
+**A lean, AI-ready SOC 2 program for early-stage companies.** Give it to your AI agent and it builds a compliance program that fits how your company actually works: control list, policies, risk and vendor registers, records and evidence plan, all as plain files you own.
 
-AI already knows compliance: the frameworks, the risks, the controls and how auditors test them. What it doesn't know is your company. This repository gives it your context, the guardrails it works within, and a library to work from.
+AI already knows compliance: the frameworks, the risks, the controls and how auditors test them. What it doesn't know is your company. The Compliance Brain gives it your context (your compliance metadata), the guardrails it works within, and a library to work from.
 
 - **185 controls** mapped to the SOC 2 Trust Services Criteria, each with the rule that brings it into scope
 - **15 policy blueprints** with 144 statements, plus a detailed document library
@@ -11,7 +11,7 @@ AI already knows compliance: the frameworks, the risks, the controls and how aud
 - **Two small tools**: one works out what's in scope for you, one checks what's left before an audit
 
 > [!IMPORTANT]
-> This is a starting point, not legal advice or a certification. Your auditor tests your controls independently, and anything here is generic until it's adapted to your company and approved by your people.
+> This is a starting point, not legal advice or a certification. Your auditor tests your controls independently, and anything here is generic until it's adapted to your company and approved by your people. See the [disclaimer](#disclaimer).
 
 ## Quick start
 
@@ -86,10 +86,24 @@ With a blank profile you start at 58 controls (Startup, Security only). Naming y
 
 The same brain is also available as a Google Sheets template and a Notion template. Use whichever fits how your team works; the library and guardrails are the same.
 
-## Contributing
+## About
 
-Improvements to the library and guidance are welcome: a control that's missing, a rule that scopes wrongly, a policy statement that reads badly. See [CONTRIBUTING.md](CONTRIBUTING.md). Please don't open issues or pull requests that contain your company's own program details.
+The Compliance Brain was built by **Paul Wenham**, a SOC 2 auditor with 15 years' experience. Paul founded AssuranceLab, which served more than 1,200 clients globally before it was acquired by Sensiba, and is now building [Throughline Audit](https://throughlineaudit.com/?utm_source=github&utm_medium=readme&utm_campaign=compliance-brain).
+
+Working closely with compliance platforms, consultancies, vCISOs and the wider security compliance ecosystem, Paul has distilled years of pragmatic compliance practice into an engine AI agents can run. The brain's library and guardrails, combined with your compliance metadata, give an agent the context to fit the program to your organisation and keep it aligned as you change.
+
+## Feedback and questions
+
+- **Issues and ideas:** open a [GitHub issue](../../issues), or see [CONTRIBUTING.md](CONTRIBUTING.md) to suggest a change.
+- **Questions or feedback:** email [hello@throughlineaudit.com](mailto:hello@throughlineaudit.com).
+- **Learn more** about agentic compliance, what auditors look for and related guides at [throughlineaudit.com](https://throughlineaudit.com/?utm_source=github&utm_medium=readme&utm_campaign=compliance-brain).
+
+Please don't share your company's own program details in public issues.
+
+## Disclaimer
+
+As independent auditors, Throughline Audit and its people don't guarantee that anyone using the Compliance Brain will pass an audit, and using it doesn't mean any audit firm has reviewed or approved your program. Compliance is achieved only by adapting the brain's content to your company and operating it. Nothing here is legal advice.
 
 ## License
 
-[MIT](LICENSE). Use it, adapt it and share it, commercially or not, keeping the copyright notice.
+[MIT No Attribution](LICENSE). Use it, adapt it and share it, commercially or not. No credit required.

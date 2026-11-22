@@ -2189,7 +2189,7 @@ Fifteen policies and 139 statements, mapped to the Control Library. A policy or 
 
 **Your choices**
 
-At the top right of the Policies tab your agent records three choices it asks you before building: Depth (Light builds the 15 policies from the in-scope statements; Detailed builds the Throughline document set, 22 documents with full sections and tables, from the library at the bottom of the tab), Alignment (Defaults uses role names and library defaults confirmed by the owner; Tailored checks every setting against your systems and answers the Ask the client questions) and Document format (Google Docs or Word files, wiki pages or your compliance platform). Light with Defaults suits most teams under 100 staff and needs the fewest questions; you can step up later.
+At the top right of the Policies tab your agent records three choices it asks you before building: Depth (Light builds the 15 policies from the in-scope statements; Detailed builds the brain's document set, 22 documents with full sections and tables, from the library at the bottom of the tab), Alignment (Defaults uses role names and library defaults confirmed by the owner; Tailored checks every setting against your systems and answers the Ask the client questions) and Document format (Google Docs or Word files, wiki pages or your compliance platform). Light with Defaults suits most teams under 100 staff and needs the fewest questions; you can step up later.
 
 **Day to day**
 
@@ -2263,4 +2263,4 @@ A very high-level record of the work your agent has completed: the date and the 
 
 Your agent adds a row after each block of work. If it can't edit this file, it gives you the entry to add. Use it to keep track of what's been done. It doesn't replace approvals or version history.
 
-## Questions about a field? Ask your Throughline Delivery Lead, or your compliance agent once it's connected.
+## Questions about a field? Ask your compliance agent, or email hello@throughlineaudit.com.

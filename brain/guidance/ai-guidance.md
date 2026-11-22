@@ -295,7 +295,7 @@ Build the 15 policies in the register from the in-scope statements: one short pa
 
 ### 6.3 Detailed depth
 
-Build the Throughline document set from the Policy document library: one document per in-scope row, with its sections and tables, the options the client confirms, the document conventions and the build notes. The statements above still define what each document must cover; the library gives the shape and the extra depth. Track each document against its mapped policy in the register, and put the links in the Link column or under What lives where.
+Build the brain's document set from the Policy document library: one document per in-scope row, with its sections and tables, the options the client confirms, the document conventions and the build notes. The statements above still define what each document must cover; the library gives the shape and the extra depth. Track each document against its mapped policy in the register, and put the links in the Link column or under What lives where.
 
 *Where: Policies – Policy document library*
 
@@ -313,7 +313,7 @@ Resolve every placeholder, check each setting against the system that enforces i
 
 ### 6.6 Existing policies
 
-Where the client already has a policy, check it against the in-scope statements and fill the gaps instead of replacing it. Keep their titles and voice unless they ask for the Throughline format. Where the client's control framework diverges from the library (a library control marked not relevant, or a custom control of their own), use the Include? column on the statements: switch off statements their framework doesn't need, and add a statement for any custom control a policy should cover.
+Where the client already has a policy, check it against the in-scope statements and fill the gaps instead of replacing it. Keep their titles and voice unless they ask for the brain's format. Where the client's control framework diverges from the library (a library control marked not relevant, or a custom control of their own), use the Include? column on the statements: switch off statements their framework doesn't need, and add a statement for any custom control a policy should cover.
 
 *Where: Policies – statements*
 

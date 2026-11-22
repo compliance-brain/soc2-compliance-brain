@@ -18,6 +18,10 @@ Thanks for helping make compliance simpler. This repository is two things: a sha
 4. If you change scoping rules, run `python3 tools/scope.py` with a blank profile and say how the counts changed. A blank profile should give 58 controls, 13 policies and 28 risks unless the change is intended to alter that.
 5. Add a line to `CHANGELOG.md`.
 
+## Questions
+
+Not sure whether something is a good fit? Email hello@throughlineaudit.com.
+
 ## Never include
 
 Your company's program, profile answers, evidence, names, customer details or anything confidential. If you're contributing from your company's copy, make the change in a fresh fork of this repository.
