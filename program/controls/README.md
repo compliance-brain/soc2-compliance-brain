@@ -10,16 +10,21 @@
 
 ## Control list columns
 
+The list ships with the reference company's 75 controls, so you can see a complete first cut. Your agent re-runs the scope tool on your profile and adds, swaps or removes rows to match (see [what-else-to-add.md](../what-else-to-add.md)).
+
 | Column | What to put |
 | --- | --- |
-| ID | The control ID from scope.md, such as AC-03A |
+| ID | The control ID from the library, such as AC-03A |
 | Control | The control name |
-| Owner | The role or person who runs it |
-| Frequency | From scope.md: Annually, Quarterly, Configuration, Event-driven and so on |
-| Where it lives | The system or file where the control operates |
-| Evidence source | What proves it worked: an approval, a completed review, a configuration screenshot (4.4) |
+| What we do | The control wording, with tool variables such as `{{identity provider: Google Workspace}}` |
+| Owner | The role who runs it (CEO, CTO, Head of Operations, Lead Engineer in the reference company) |
+| Frequency | Annually, Quarterly, Configuration, Event-driven and so on |
+| Where it lives | The system or record where the control operates |
+| Evidence | What proves it worked: an approval, a completed review, a configuration screenshot (4.4) |
+| Policy | The policy that covers it |
+| Template | The template in [program/templates/](../templates/) that records it, if any |
 | Status | `Gap`, `Designed`, `Operating`, `Evidence ready` or `Not applicable` |
-| Last operated / Next due | Dates, for recurring controls |
+| Last operated / Next due | Dates, for recurring controls; the [control calendar](../plans/control-calendar.md) suggests months |
 | Evidence link | The evidence folder for this control and period |
 | Notes | Anything open |
 

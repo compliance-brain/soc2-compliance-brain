@@ -8,6 +8,7 @@ AI already knows compliance: the frameworks, the risks, the controls and how aud
 - **15 policy blueprints** with 144 statements, plus a detailed document library
 - **35 common SOC 2 risks**, vendor tiers and review checks, and **35 customer responsibilities (CUECs)**
 - **Guardrails** for how an AI agent works: accuracy first, people approve, simple before detailed
+- **A complete first draft for a reference company**: a 10-person SaaS's control list (75 controls), 15 policies, registers, plans and 13 templates, written with variables your agent swaps for your answers
 - **Two small tools**: one works out what's in scope for you, one checks what's left before an audit
 
 > [!IMPORTANT]
@@ -46,11 +47,12 @@ context-sources         controls, policies,       (tools/scope.py,          cont
 | [brain/library/](brain/library/) | Controls with scoping rules, policy blueprints and statements, risks, vendor tiers, CUECs, field options |
 | [program/context/](program/context/) | Your company profile, context sources and system description |
 | [program/controls/](program/controls/) | What's in scope (generated) and your working control list |
-| [program/policies/](program/policies/) | 15 policy skeletons to adapt |
+| [program/policies/](program/policies/) | 15 policies drafted for the reference company, with the other library statements and when they apply |
 | [program/registers/](program/registers/) | Risk register, vendor register, people |
 | [program/records/](program/records/) | Activity log, requests and tickets, sign-offs, acknowledgements, audit trail |
-| [program/templates/](program/templates/) | Access review, management review, restore test, vendor review, onboarding, leaving, incident |
-| [program/plans/](program/plans/) | Continuity and recovery, incident response, organisation and roles, evidence guide |
+| [program/templates/](program/templates/) | 13 records and procedures, from access requests to incident tabletops |
+| [program/what-else-to-add.md](program/what-else-to-add.md) | What changes if your company differs from the reference company |
+| [program/plans/](program/plans/) | Control calendar, continuity and recovery, incident response, organisation and roles, evidence guide |
 | [tools/](tools/) | `scope.py` and `check.py` (Python 3, no dependencies) |
 
 ## The tools
@@ -61,13 +63,14 @@ python3 tools/check.py    # open profile fields, placeholders, Confirm items, ex
 python3 tools/check.py --strict   # exits with an error if anything blocks audit readiness
 ```
 
-With a blank profile you start at 58 controls (Startup, Security only). Naming your stage, criteria, tools and how you operate brings the right alternatives in and the rest out.
+The profile ships with the reference company's answers (75 controls). With a blank profile you'd start at 58 (Startup, Security only). Naming your stage, criteria, tools and how you operate brings the right alternatives in and the rest out.
 
 ## Markers
 
 | Marker | Means | Who acts |
 | --- | --- | --- |
 | `{{like this}}` | Something to replace with your own value | 🤖 AI fills it from your profile; 👤 a person confirms |
+| `{{label: example}}` | The reference company's answer for that label, shown so the draft reads naturally | 🤖 AI replaces it with yours |
 | 🧭 **Guide** (note box) | How this part works and what auditors look for | Read, then delete |
 | ✏️ **Adapt** (important box) | What to customise before relying on it | 🤖 AI drafts; 👤 owner checks |
 | ✅ **Confirm** (warning box) | A decision the owner makes before approval, with the default and why | 👤 Owner decides |

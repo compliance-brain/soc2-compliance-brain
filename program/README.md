@@ -1,6 +1,10 @@
 # Your program
 
-Everything in this folder belongs to your company. It starts generic: `{{placeholders}}`, Guide, Adapt and Confirm boxes, and `Example:` rows show what to replace. Work through it in this order with your AI agent.
+Everything in this folder belongs to your company. It starts as a complete first draft for a **reference company**: a simple, fully remote 10-person B2B SaaS on AWS, with Google Workspace sign-in, code on GitHub and company-managed laptops, going for SOC 2 Security. You can read it end to end and see what a lean program looks like.
+
+The reference company's answers are written as variables like `{{identity provider: Google Workspace}}`: the label says what it is, and the value is the reference company's answer. Your agent replaces each one from your profile. Where your context differs, [what-else-to-add.md](what-else-to-add.md) and each policy's **Add if your setup differs** section say what to add or swap, drawn from the full library in [brain/](../brain/).
+
+Work through it in this order with your AI agent.
 
 1. **[Your context](context/).** Link the documents you already have in `context-sources.csv`, then let your agent draft `profile.yaml` from them. Answer what you know; TBC is fine. A person reviews the profile and logs the review in the audit trail.
 2. **[Your controls](controls/).** Run `python3 tools/scope.py`, then build `control-list.csv` from `scope.md`. It's what you'll be audited on, your to-do list and your dashboard.

@@ -1,3 +1,19 @@
 ID,Risk,Owner,Likelihood,Impact,Rating,Treatment,Linked controls,Last reviewed,Notes
-R-07,Example: Staff accounts are taken over through phishing or reused passwords,{{Technical Lead}},3,4,12,Reduce,"AC-07, AC-08, HR-03",{{date}},Example row: start from the in-scope risks in scope.md and keep 10 to 20
-R-25,Example: A critical vendor or subservice provider fails or is breached,{{Governance Lead}},2,4,8,Reduce,"VM-01A, VM-03",{{date}},
+R-01,"Security responsibilities are unclear or unowned, so controls lapse without anyone noticing.",CEO,2,3,6,Reduce,"GV-01, GV-02B, GV-03",{{date}},Suggested rating for the reference company; rate it for yours.
+R-03,A staff member mishandles data or falls for a scam through carelessness or lack of awareness.,Head of Operations,3,3,9,Reduce,"HR-02, HR-03, GV-05, GV-06, AC-04",{{date}},Suggested rating for the reference company; rate it for yours.
+R-05,People who leave or change role keep access they no longer need.,Head of Operations,2,4,8,Reduce,"AC-02, AC-17, AC-03A, EP-04",{{date}},Suggested rating for the reference company; rate it for yours.
+R-06,"Critical knowledge or admin access sits with one or two people, so the service stalls if they're unavailable.",CTO,3,4,12,Reduce,"AC-12, BC-02, GV-03",{{date}},Suggested rating for the reference company; rate it for yours.
+R-07,"Staff accounts are taken over through phishing, password reuse or stolen credentials.",CTO,3,5,15,Reduce,"AC-07, AC-08, AC-09, AC-10A, HR-02",{{date}},Suggested rating for the reference company; rate it for yours.
+R-08,"Excessive or privileged access is misused, deliberately or by mistake.",CTO,2,4,8,Reduce,"AC-03A, AC-04, AC-05A",{{date}},Suggested rating for the reference company; rate it for yours.
+R-10,One customer's data is exposed to another customer.,CTO,2,5,10,Reduce,"DM-02A, NS-02",{{date}},Suggested rating for the reference company; rate it for yours.
+R-11,"Customer data is exposed through misconfigured storage, databases or public endpoints.",CTO,2,5,10,Reduce,"NS-02, NS-04, NS-07, TV-06A",{{date}},Suggested rating for the reference company; rate it for yours.
+R-13,"Secrets, keys or tokens leak, for example through code or chat, and are used to get in.",CTO,3,4,12,Reduce,"NS-05A, TV-02A",{{date}},Suggested rating for the reference company; rate it for yours.
+R-16,A lost or stolen laptop exposes company or customer data.,CTO,3,3,9,Reduce,"EP-01A, EP-03, EP-04",{{date}},Suggested rating for the reference company; rate it for yours.
+R-18,An unauthorised or untested change breaks production or introduces a vulnerability.,CTO,3,4,12,Reduce,"CM-01, CM-02A, CM-03B, CM-04A, CM-06A, CM-08A",{{date}},Suggested rating for the reference company; rate it for yours.
+R-19,Vulnerable code or third-party libraries are exploited.,CTO,3,4,12,Reduce,"TV-02A, TV-03, TV-04, CM-09",{{date}},Suggested rating for the reference company; rate it for yours.
+R-21,An attack or misuse goes unnoticed because activity isn't logged or alerted on.,CTO,2,4,8,Reduce,"LM-01A, LM-02A",{{date}},Suggested rating for the reference company; rate it for yours.
+R-22,"An incident is handled badly, or customers and regulators aren't told in time.",CTO,2,4,8,Reduce,"IR-01, IR-02B, IR-03, IR-04, CO-01",{{date}},Suggested rating for the reference company; rate it for yours.
+R-23,Data is lost or the service is down for a long time because recovery doesn't work.,CTO,2,5,10,Reduce,"BC-01A, BC-02",{{date}},Suggested rating for the reference company; rate it for yours.
+R-25,"A critical vendor or subservice provider fails, is breached or changes its terms.",Head of Operations,2,4,8,Reduce,"VM-01A, VM-02, VM-03, VM-05A",{{date}},Suggested rating for the reference company; rate it for yours.
+R-29,"Confidential or customer data is entered into AI tools, or used to train third-party models.",CTO,3,3,9,Reduce,"AI-01, AI-02, AI-03",{{date}},Suggested rating for the reference company; rate it for yours.
+R-32,Automated or agent-run controls stop working and nobody notices.,CEO,2,3,6,Reduce,GV-13,{{date}},Suggested rating for the reference company; rate it for yours.

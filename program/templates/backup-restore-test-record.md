@@ -1,7 +1,7 @@
 # Backup restore test record
 
 > [!NOTE]
-> **🧭 Guide.** At least annually. Controls AV-01B and BC-01A. Restore into a separate environment, never over production.
+> **🧭 Guide.** At least annually. Controls BC-01A and BC-02 (and AV-01B if Availability is in scope). Backups run automatically in `{{backups: Amazon RDS automated backups}}`; this test proves you can restore them. Restore into a separate environment, never over production.
 
 - [ ] Pick a recent backup and note its date
 - [ ] Restore it to a separate environment and time it

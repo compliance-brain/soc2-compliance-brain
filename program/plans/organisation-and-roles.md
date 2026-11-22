@@ -5,15 +5,17 @@
 
 | Role | Held by | Responsibilities |
 | --- | --- | --- |
-| Governance Lead | `{{name}}` | Approves policies, vendors and risk acceptances; runs management reviews |
-| Technical Lead | `{{name}}` | Owns systems, production access, changes and platform settings |
-| Compliance Owner | `{{name}}` | Runs the program, the evidence and the audit |
-| Incident lead | `{{name}}` | Leads incident response and notifications |
-| AI agent (if used) | `{{AI tool}}`, working for `{{name}}` | Drafts and prepares; approves nothing |
+| Governance Lead | `{{Governance Lead: CEO}}` | Approves policies, vendors and risk acceptances; runs management reviews |
+| Technical Lead | `{{Technical Lead: CTO}}` | Owns systems, production access, changes and platform settings |
+| Compliance Owner | `{{Compliance Owner: CTO}}` | Runs the program, the evidence and the audit |
+| Incident lead | `{{incident lead: CTO}}` |
+| Head of Operations | `{{name}}` | People, onboarding and leaving, devices, vendors and finance |
+| Lead Engineer | `{{name}}` | Deployments, scanning, logging and on-call; backup for the CTO | Leads incident response and notifications |
+| AI agent (if used) | `{{AI tools: Claude}}`, working for the Compliance Owner | Drafts and prepares; approves nothing |
 
 ## Checks and balances
 
-`{{How approvals stay independent when one person holds several roles: sign-offs recorded, pull requests with required review and automated checks, minuted reviews, audit logs kept.}}`
+With 10 people, the CTO holds three roles. Decisions stay checked because `{{checks: the CEO approves policies and risk acceptances, every code change needs a second reviewer, management reviews are minuted, and cloud and identity audit logs are kept for 12 months}}`.
 
 ## Outside help
 

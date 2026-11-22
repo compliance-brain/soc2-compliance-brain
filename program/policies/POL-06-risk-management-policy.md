@@ -3,19 +3,14 @@
 <!-- policy: POL-06 | status: Draft | version: V1 | owner: {{owner}} | approved-by: | approved-on: | staff-must-acknowledge: no -->
 
 > [!NOTE]
-> **🧭 Guide.** Sets out how the company identifies, rates, treats and monitors risks to its service and commitments, including fraud. Linked controls: RM-01, RM-02A, RM-02B, RM-03, RM-05. Keep only the statements whose controls are in scope (run `python3 tools/scope.py`), one short paragraph each (AI Guidance 4.2 and 6.2). Delete this box once adapted.
-
-> [!IMPORTANT]
-> **✏️ Adapt.** 🤖 AI drafts each statement from the profile fields named under it (Risk management, Operating Cadence, Planned Changes, Known Gaps, Compliance Goals). 👤 The owner answers: Who decides when a risk is acceptable? When does leadership already review priorities, where a risk review could fit? What worries you most that could go wrong?
+> **🧭 Guide.** A first draft for the reference company, a 10-person SaaS ([profile](../context/profile.yaml)). `{{label: example}}` values are the reference company's answers: replace them with yours. The statements below are the library statements in scope for that company; **Add if your setup differs** lists the rest and when each applies. Keep each statement short (AI Guidance 4.2 and 6.2), and delete this box once adapted.
 
 > [!WARNING]
-> **✅ Confirm before approval.** Check each default with its owner and use your real practice where it meets the requirement (AI Guidance 5.6 and 9.4).
+> **✅ Confirm before approval.** Each default below is written into a statement. Keep it, change it to your real practice where that meets the requirement, or agree a fix (AI Guidance 5.6 and 9.4).
 >
-> - [ ] `{{Confirm: Risk assessment (periodic) (default: Annually)}}`
-> - [ ] `{{Confirm: Risk assessment (continuous) (default: Full review annually)}}`
-> - [ ] `{{Confirm: Risk treatment (default: Treat anything rated High or above)}}`
-> - [ ] `{{Confirm: Risk appetite (default: Annually)}}`
-> - [ ] `{{Confirm: Fraud (default: Included in every assessment)}}`
+> - [ ] `{{Confirm: Risk assessment (periodic) (POL-06.02): Annually}}`
+> - [ ] `{{Confirm: Risk treatment (POL-06.04): Treat anything rated High or above}}`
+> - [ ] `{{Confirm: Fraud (POL-06.06): Included in every assessment}}`
 
 ## Purpose
 
@@ -39,23 +34,11 @@ A risk assessment is completed at least annually and when major changes happen. 
 
 <sub>POL-06.02 · Controls: RM-02A · Tailor using: Risk management, Planned Changes</sub>
 
-### Risk assessment (continuous)
-
-Risks are identified and updated as part of normal operations, and the whole register is reviewed at least annually.
-
-<sub>POL-06.03 · Controls: RM-02B · Tailor using: Risk management</sub>
-
 ### Risk treatment
 
 Each risk rated above the company's risk appetite has a treatment plan. Management formally accepts any risk that remains.
 
 <sub>POL-06.04 · Controls: RM-03 · Tailor using: Risks tab: Risk appetite</sub>
-
-### Risk appetite
-
-Management sets and records the level of risk it is prepared to accept, and reviews it annually.
-
-<sub>POL-06.05 · Controls: RM-05 · Tailor using: Compliance Goals, Customer Types</sub>
 
 ### Fraud
 
@@ -63,9 +46,30 @@ Each risk assessment considers how fraud could happen, including management over
 
 <sub>POL-06.06 · Controls: RM-01 · Tailor using: Headcount, Governance</sub>
 
+## Add if your setup differs
+
+<details>
+<summary>2 more library statements, and when each applies</summary>
+
+- **Risk assessment (continuous)** (POL-06.03; controls RM-02B). *Applies when:* All stages, when Risk management is Continuous.  
+  Risks are identified and updated as part of normal operations, and the whole register is reviewed at least annually.
+- **Risk appetite** (POL-06.05; controls RM-05). *Applies when:* Enterprise only. Always included.  
+  Management sets and records the level of risk it is prepared to accept, and reviews it annually.
+
+</details>
+
+<details>
+<summary>Questions to adapt this policy</summary>
+
+Ask the owner: Who decides when a risk is acceptable? When does leadership already review priorities, where a risk review could fit? What worries you most that could go wrong?
+
+Profile fields to draw on: Risk management, Operating Cadence, Planned Changes, Known Gaps, Compliance Goals.
+
+</details>
+
 ## Exceptions
 
-Exceptions to this policy are approved by `{{approver}}`, recorded in [requests-and-tickets.csv](../records/requests-and-tickets.csv) as an Exception, and reviewed at the next management review.
+Exceptions to this policy are approved by {{approver: CTO}}, recorded in [requests-and-tickets.csv](../records/requests-and-tickets.csv) as an Exception, and reviewed at the next management review.
 
 ## Revision history
 

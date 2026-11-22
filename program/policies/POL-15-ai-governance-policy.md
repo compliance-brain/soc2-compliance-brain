@@ -3,17 +3,12 @@
 <!-- policy: POL-15 | status: Draft | version: V1 | owner: {{owner}} | approved-by: | approved-on: | staff-must-acknowledge: no -->
 
 > [!NOTE]
-> **🧭 Guide.** Sets out how AI tools, AI features and AI agents are approved, used, tested and monitored. Linked controls: AI-01, AI-02, AI-03, AI-04, AI-05, AI-06, AI-07, AI-08, AI-09, AI-10, AI-11, AI-12, AI-13, AI-14, AI-15, AI-16, AI-17, AI-18, AI-19, GV-13. Keep only the statements whose controls are in scope (run `python3 tools/scope.py`), one short paragraph each (AI Guidance 4.2 and 6.2). Delete this box once adapted.
-
-> [!IMPORTANT]
-> **✏️ Adapt.** 🤖 AI drafts each statement from the profile fields named under it (AI Models and Platforms, AI reliance, Responsibility for outcomes, Control execution, Data Handled). 👤 The owner answers: Which AI tools does the team use day to day? Does the product use AI, and who checks its output? Do any agents take actions on their own?
+> **🧭 Guide.** A first draft for the reference company, a 10-person SaaS ([profile](../context/profile.yaml)). `{{label: example}}` values are the reference company's answers: replace them with yours. The statements below are the library statements in scope for that company; **Add if your setup differs** lists the rest and when each applies. Keep each statement short (AI Guidance 4.2 and 6.2), and delete this box once adapted.
 
 > [!WARNING]
-> **✅ Confirm before approval.** Check each default with its owner and use your real practice where it meets the requirement (AI Guidance 5.6 and 9.4).
+> **✅ Confirm before approval.** Each default below is written into a statement. Keep it, change it to your real practice where that meets the requirement, or agree a fix (AI Guidance 5.6 and 9.4).
 >
-> - [ ] `{{Confirm: Provider terms (default: No training on customer data)}}`
-> - [ ] `{{Confirm: Agent inventory, owner and risk (default: Reviewed when agents change and at least annually)}}`
-> - [ ] `{{Confirm: Agent access (default: Reviewed quarterly with user access)}}`
+> - [ ] `{{Confirm: Provider terms (POL-15.03): No training on customer data}}`
 
 ## Purpose
 
@@ -43,57 +38,50 @@ AI providers' terms are checked for training on customer data, retention and dat
 
 <sub>POL-15.03 · Controls: AI-03 · Tailor using: AI Models and Platforms</sub>
 
-### Evaluation before release
-
-AI features are evaluated for accuracy, safety and bias before release and after significant model changes.
-
-<sub>POL-15.04 · Controls: AI-04 · Tailor using: AI reliance, Responsibility for outcomes</sub>
-
-### Monitoring in production
-
-AI features in production are monitored for errors, harmful output and drift, and customers can report issues.
-
-<sub>POL-15.05 · Controls: AI-05 · Tailor using: AI reliance</sub>
-
 ### Agent authority and boundaries
 
 AI agents act only within defined permissions and boundaries. Consequential actions need human approval or can be reversed, and the boundaries are re-approved when an agent's capabilities change. Each agent-run control has a named person accountable for it.
 
-<sub>POL-15.06 · Controls: AI-06, GV-13 · Tailor using: AI reliance, Control execution</sub>
-
-### Agent inventory, owner and risk
-
-Each AI agent operating in production is recorded with its purpose, scope, boundaries and the systems and data it can reach, has a named accountable owner who monitors it and can restrict or stop it, and is risk-assessed before go-live and when it changes.
-
-<sub>POL-15.07 · Controls: AI-07, AI-08, AI-09 · Tailor using: AI reliance, AI Models and Platforms, Key Parties</sub>
-
-### Agent access
-
-Each agent has its own identity, with least-privilege permissions approved before they are granted and included in access reviews. Elevated or emergency access for an agent is approved, time-bound, logged and reviewed after use.
-
-<sub>POL-15.08 · Controls: AI-10, AI-11, AI-12 · Tailor using: Identity and Authentication, Privileged Access Management, Access ownership</sub>
+<sub>POL-15.06 · Controls: GV-13 · Tailor using: AI reliance, Control execution</sub>
 
 ### Agent-made changes
 
 Changes written with AI assistance are reviewed, tested and deployed by a person through the change process. Where an agent deploys or remediates on its own, each change is authorised by risk, tested, reviewed afterwards, alerted to the owner and reversible by rollback.
 
-<sub>POL-15.09 · Controls: AI-13, AI-14, AI-18 · Tailor using: Change management, Build and Deployment / CI/CD, AI reliance</sub>
+<sub>POL-15.09 · Controls: AI-13 · Tailor using: Change management, Build and Deployment / CI/CD, AI reliance</sub>
 
-### Agent monitoring and incident authority
+## Add if your setup differs
 
-Agent actions are logged against the agent's identity, and actions outside its boundaries alert the owner. Where an agent monitors systems or triages incidents, its authority, escalation points and human review are defined, and customer notifications it drafts are approved before release.
+<details>
+<summary>6 more library statements, and when each applies</summary>
 
-<sub>POL-15.10 · Controls: AI-16, AI-17, AI-19 · Tailor using: Audit Logging, Incident response, Status Page</sub>
+- **Evaluation before release** (POL-15.04; controls AI-04). *Applies when:* All stages, when AI reliance is Assistive, AI-native or Agentic.  
+  AI features are evaluated for accuracy, safety and bias before release and after significant model changes.
+- **Monitoring in production** (POL-15.05; controls AI-05). *Applies when:* All stages, when AI reliance is AI-native or Agentic.  
+  AI features in production are monitored for errors, harmful output and drift, and customers can report issues.
+- **Agent inventory, owner and risk** (POL-15.07; controls AI-07, AI-08, AI-09). *Applies when:* All stages, when AI reliance is Agentic.  
+  Each AI agent operating in production is recorded with its purpose, scope, boundaries and the systems and data it can reach, has a named accountable owner who monitors it and can restrict or stop it, and is risk-assessed before go-live and when it changes.
+- **Agent access** (POL-15.08; controls AI-10, AI-11, AI-12). *Applies when:* All stages, when AI reliance is Agentic.  
+  Each agent has its own identity, with least-privilege permissions approved before they are granted and included in access reviews. Elevated or emergency access for an agent is approved, time-bound, logged and reviewed after use.
+- **Agent monitoring and incident authority** (POL-15.10; controls AI-16, AI-17, AI-19). *Applies when:* All stages, when AI reliance is Agentic.  
+  Agent actions are logged against the agent's identity, and actions outside its boundaries alert the owner. Where an agent monitors systems or triages incidents, its authority, escalation points and human review are defined, and customer notifications it drafts are approved before release.
+- **Customer-directed agent changes** (POL-15.11; controls AI-15). *Applies when:* All stages, when AI reliance is Agentic.  
+  Where customers direct or approve an agent's changes, the split of responsibilities is defined and communicated as customer responsibilities (CUECs), and the agent records who directed each change.
 
-### Customer-directed agent changes
+</details>
 
-Where customers direct or approve an agent's changes, the split of responsibilities is defined and communicated as customer responsibilities (CUECs), and the agent records who directed each change.
+<details>
+<summary>Questions to adapt this policy</summary>
 
-<sub>POL-15.11 · Controls: AI-15 · Tailor using: Customer administration, Service standardisation</sub>
+Ask the owner: Which AI tools does the team use day to day? Does the product use AI, and who checks its output? Do any agents take actions on their own?
+
+Profile fields to draw on: AI Models and Platforms, AI reliance, Responsibility for outcomes, Control execution, Data Handled.
+
+</details>
 
 ## Exceptions
 
-Exceptions to this policy are approved by `{{approver}}`, recorded in [requests-and-tickets.csv](../records/requests-and-tickets.csv) as an Exception, and reviewed at the next management review.
+Exceptions to this policy are approved by {{approver: CTO}}, recorded in [requests-and-tickets.csv](../records/requests-and-tickets.csv) as an Exception, and reviewed at the next management review.
 
 ## Revision history
 

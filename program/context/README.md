@@ -6,6 +6,10 @@
 > [!IMPORTANT]
 > **✏️ Adapt.** 🤖 AI: draft each answer in [profile.yaml](profile.yaml) from the sources in [context-sources.csv](context-sources.csv), cite the source in the source's Notes, and add anything you inferred to the Confirm box below. 👤 Person: check each answer, resolve the Confirm items and record who reviewed it and when. Come back here when something changes: a new product, market, data type, vendor or regulation.
 
+## The reference company
+
+The profile ships with the answers for a reference company, each marked `# example`: a simple, fully remote 10-person B2B SaaS on AWS (RDS, Cloudflare), Google Workspace sign-in, Slack, GitHub with Actions and Terraform, 1Password, Kandji-managed laptops, Linear and Rippling, live with early customers and going for a SOC 2 Security Type 1 then Type 2. The whole program is drafted for it. Replace each answer with yours and delete the marker; `tools/check.py` lists any left, and `tools/scope.py` shows how your scope differs.
+
 ## What's here
 
 | File | What it holds |

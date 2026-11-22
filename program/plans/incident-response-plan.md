@@ -1,7 +1,7 @@
 # Incident response plan
 
 > [!NOTE]
-> **🧭 Guide.** Controls IR-02C, IR-03, IR-04 and PR-07. The steps to follow when something goes wrong. Log every incident in [requests-and-tickets.csv](../records/requests-and-tickets.csv) with Type set to Incident, and use the [incident record](../templates/incident-record.md).
+> **🧭 Guide.** Controls IR-01, IR-02B, IR-03 and IR-04 (plus PR-07 when Privacy is in scope). The steps to follow when something goes wrong. Log every incident in [requests-and-tickets.csv](../records/requests-and-tickets.csv) with Type set to Incident, and use the [incident record](../templates/incident-record.md).
 
 > [!WARNING]
 > **✅ Confirm before approval.**
@@ -29,8 +29,10 @@
 
 | Who | For | How |
 | --- | --- | --- |
-| `{{incident lead}}` | Leads the response | `{{contact}}` |
-| `{{legal counsel}}` | Breach assessment and notices | `{{contact}}` |
+| `{{incident lead: CTO}}` | Leads the response | `{{contact: phone and Slack}}` |
+| `{{backup lead: Lead Engineer}}` | Leads if the incident lead is unavailable | `{{contact}}` |
+| `{{legal counsel: external privacy lawyer}}` | Breach assessment and notices | `{{contact}}` |
+| `{{cloud provider: Amazon Web Services}}` support | Provider-side incidents | `{{support plan and link}}` |
 
 ## Who has to be told
 

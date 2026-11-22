@@ -1,2 +1,11 @@
 Name,Role,Type,Start date,Background check,Confidentiality signed,Policies acknowledged,Training completed,End date,Access removed,Status
-Example: {{name}},{{role}},Employee,{{date}},Done,Yes,{{date}},{{date}},,,Active
+{{name 1}},CEO and co-founder,Founder,{{date}},Not required (founder),Yes,{{date}},{{date}},,,Active
+{{name 2}},CTO and co-founder,Founder,{{date}},Not required (founder),Yes,{{date}},{{date}},,,Active
+{{name 3}},Head of Operations,Employee,{{date}},{{date}},Yes,{{date}},{{date}},,,Active
+{{name 4}},Lead Engineer,Employee,{{date}},{{date}},Yes,{{date}},{{date}},,,Active
+{{name 5}},Software Engineer,Employee,{{date}},{{date}},Yes,{{date}},{{date}},,,Active
+{{name 6}},Software Engineer,Employee,{{date}},{{date}},Yes,{{date}},{{date}},,,Active
+{{name 7}},Software Engineer,Employee,{{date}},{{date}},Yes,{{date}},{{date}},,,Active
+{{name 8}},Product Designer,Employee,{{date}},{{date}},Yes,{{date}},{{date}},,,Active
+{{name 9}},Customer Success Manager,Employee,{{date}},{{date}},Yes,{{date}},{{date}},,,Active
+{{name 10}},Contract Engineer,Contractor,{{date}},{{date}},Yes,{{date}},{{date}},,,Active

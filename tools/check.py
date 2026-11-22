@@ -6,6 +6,7 @@ Usage:
     python3 tools/check.py --strict  # exit with code 1 if anything blocks audit readiness
 
 Reports:
+  - profile answers still marked "# example" (the reference company's)
   - high-impact profile fields still TBC, Unsure or blank
   - profile answers that aren't in the allowed options
   - placeholders ({{...}}) and open Confirm items left in program/
@@ -23,8 +24,8 @@ from scope import ROOT, LIB, load_profile, split_answers, unknown  # noqa: E402
 
 PROGRAM = os.path.join(ROOT, 'program')
 HEADERS = {
-    'controls/control-list.csv': ['ID', 'Control', 'Owner', 'Frequency', 'Where it lives', 'Evidence source',
-                                  'Status', 'Last operated', 'Next due', 'Evidence link', 'Notes'],
+    'controls/control-list.csv': ['ID', 'Control', 'What we do', 'Owner', 'Frequency', 'Where it lives', 'Evidence',
+                                  'Policy', 'Template', 'Status', 'Last operated', 'Next due', 'Evidence link', 'Notes'],
     'context/context-sources.csv': ['Source', 'Type', 'Impact', 'Status', 'Informs', 'Link', 'Owner',
                                     'Last reviewed', 'Notes'],
     'registers/risk-register.csv': ['ID', 'Risk', 'Owner', 'Likelihood', 'Impact', 'Rating', 'Treatment',
@@ -71,6 +72,8 @@ def main():
                 if part not in options[f]:
                     bad.append(f'{f}: "{part}"')
     missing = [f for f in fields if f not in profile]
+    raw = open(os.path.join(ROOT, 'program', 'context', 'profile.yaml'), encoding='utf-8').read()
+    examples = [l.split(':')[0] for l in raw.splitlines() if l.rstrip().endswith('# example') and not l.startswith('#')]
     print('Profile (program/context/profile.yaml)')
     print(f'  High-impact fields still open: {len(high_open)} of {sum(1 for r in fields.values() if r["Impact"] == "H")}')
     for f in high_open:
@@ -82,6 +85,9 @@ def main():
             print(f'    - {b}')
     if missing:
         print(f'  Fields missing from the profile: {", ".join(missing)}')
+    if examples:
+        print(f'  Still the reference company\'s answers ("# example"): {len(examples)} fields. Replace them with yours.')
+        blockers.append(f'{len(examples)} profile answers still describe the reference company')
     if high_open:
         blockers.append(f'{len(high_open)} high-impact profile fields open')
 

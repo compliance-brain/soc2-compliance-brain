@@ -3,19 +3,16 @@
 <!-- policy: POL-10 | status: Draft | version: V1 | owner: {{owner}} | approved-by: | approved-on: | staff-must-acknowledge: no -->
 
 > [!NOTE]
-> **🧭 Guide.** Sets out how infrastructure is secured, monitored and kept free of known vulnerabilities. Linked controls: NS-01A, NS-01B, NS-02, NS-06, NS-07, TV-01A, TV-01B, TV-02A, TV-02B, TV-03, TV-04, TV-05, TV-06A, TV-06B, TV-07, LM-01A, LM-01B, LM-02A, LM-02B, LM-03, LM-04, LM-05. Keep only the statements whose controls are in scope (run `python3 tools/scope.py`), one short paragraph each (AI Guidance 4.2 and 6.2). Delete this box once adapted.
-
-> [!IMPORTANT]
-> **✏️ Adapt.** 🤖 AI drafts each statement from the profile fields named under it (Infrastructure, Hosting Platform, Infrastructure operations, Edge and Web Protection, Infrastructure Vulnerability Scanning, Software Vulnerability Scanning, Audit Logging, Security Threat Detection, Penetration Test Status). 👤 The owner answers: Who gets alerted if something looks wrong in production, and at what hours? How do you find out about vulnerabilities today? When was your last pen test?
+> **🧭 Guide.** A first draft for the reference company, a 10-person SaaS ([profile](../context/profile.yaml)). `{{label: example}}` values are the reference company's answers: replace them with yours. The statements below are the library statements in scope for that company; **Add if your setup differs** lists the rest and when each applies. Keep each statement short (AI Guidance 4.2 and 6.2), and delete this box once adapted.
 
 > [!WARNING]
-> **✅ Confirm before approval.** Check each default with its owner and use your real practice where it meets the requirement (AI Guidance 5.6 and 9.4).
+> **✅ Confirm before approval.** Each default below is written into a statement. Keep it, change it to your real practice where that meets the requirement, or agree a fix (AI Guidance 5.6 and 9.4).
 >
-> - [ ] `{{Confirm: Vulnerability scanning (default: Infrastructure at least monthly; code on every change)}}`
-> - [ ] `{{Confirm: Remediation timeframes (default: Critical 7 days, High 30 days, Medium 90 days)}}`
-> - [ ] `{{Confirm: Penetration testing (default: Annually)}}`
-> - [ ] `{{Confirm: Cloud configuration (default: Quarterly if checked by hand)}}`
-> - [ ] `{{Confirm: Logging (default: Kept 12 months)}}`
+> - [ ] `{{Confirm: Vulnerability scanning (POL-10.05): Infrastructure at least monthly; code on every change}}`
+> - [ ] `{{Confirm: Remediation timeframes (POL-10.06): Critical 7 days, High 30 days, Medium 90 days}}`
+> - [ ] `{{Confirm: Penetration testing (POL-10.07): Annually}}`
+> - [ ] `{{Confirm: Cloud configuration (POL-10.08): Quarterly if checked by hand}}`
+> - [ ] `{{Confirm: Logging (POL-10.10): Kept 12 months}}`
 
 ## Purpose
 
@@ -31,7 +28,7 @@ Production infrastructure, cloud accounts, networks and the tools that monitor t
 
 Production networks allow only the inbound traffic they need, and management access goes through approved paths.
 
-<sub>POL-10.01 · Controls: NS-01A, NS-01B · Tailor using: Infrastructure, Infrastructure operations</sub>
+<sub>POL-10.01 · Controls: NS-01A · Tailor using: Infrastructure, Infrastructure operations</sub>
 
 ### No public data stores
 
@@ -41,7 +38,7 @@ Databases and storage buckets holding customer data aren't publicly accessible.
 
 ### Edge protection
 
-Public endpoints are protected by {{edge or WAF service}} against common attacks and denial of service.
+Public endpoints are protected by {{edge protection: Cloudflare WAF}} against common attacks and denial of service.
 
 <sub>POL-10.03 · Controls: NS-06 · Tailor using: Edge and Web Protection</sub>
 
@@ -55,7 +52,7 @@ Databases follow secure configuration settings, including access controls and ba
 
 Infrastructure and code are scanned for vulnerabilities, automatically where tools allow.
 
-<sub>POL-10.05 · Controls: TV-01A, TV-01B, TV-02A, TV-02B · Tailor using: Infrastructure Vulnerability Scanning, Software Vulnerability Scanning</sub>
+<sub>POL-10.05 · Controls: TV-01A, TV-02A · Tailor using: Infrastructure Vulnerability Scanning, Software Vulnerability Scanning</sub>
 
 ### Remediation timeframes
 
@@ -67,41 +64,50 @@ Vulnerabilities are fixed within set timeframes by severity. Exceptions are appr
 
 An independent penetration test is done at least annually, and findings are tracked to closure.
 
-<sub>POL-10.07 · Controls: TV-04, TV-05 · Tailor using: Penetration Test Status, Penetration Test Approach</sub>
+<sub>POL-10.07 · Controls: TV-04 · Tailor using: Penetration Test Status, Penetration Test Approach</sub>
 
 ### Cloud configuration
 
 Cloud settings are checked against a security baseline, continuously or at least quarterly.
 
-<sub>POL-10.08 · Controls: TV-06A, TV-06B · Tailor using: Cloud Configuration Monitoring</sub>
-
-### Patching
-
-Servers the company manages are patched within the remediation timeframes.
-
-<sub>POL-10.09 · Controls: TV-07 · Tailor using: Infrastructure operations</sub>
+<sub>POL-10.08 · Controls: TV-06A · Tailor using: Cloud Configuration Monitoring</sub>
 
 ### Logging
 
-Security-relevant activity in production, the identity provider and cloud accounts is logged, protected from change and kept for {{period}}.
+Security-relevant activity in production, the identity provider and cloud accounts is logged, protected from change and kept for {{log retention: 12 months}}.
 
-<sub>POL-10.10 · Controls: LM-01A, LM-01B · Tailor using: Audit Logging</sub>
+<sub>POL-10.10 · Controls: LM-01A · Tailor using: Audit Logging</sub>
 
 ### Alerts and response
 
-Suspicious activity raises alerts to {{team or on-call rota}}, who triage them within set times.
+Suspicious activity raises alerts to {{alert recipients: the engineering on-call rota}}, who triage them within set times.
 
-<sub>POL-10.11 · Controls: LM-02A, LM-02B, LM-03 · Tailor using: Security Threat Detection, Incident response</sub>
+<sub>POL-10.11 · Controls: LM-02A · Tailor using: Security Threat Detection, Incident response</sub>
 
-### Log review and round-the-clock monitoring
+## Add if your setup differs
 
-Logs are reviewed regularly and security monitoring runs around the clock.
+<details>
+<summary>2 more library statements, and when each applies</summary>
 
-<sub>POL-10.12 · Controls: LM-04, LM-05 · Tailor using: Company Stage</sub>
+- **Patching** (POL-10.09; controls TV-07). *Applies when:* All stages, when Infrastructure operations is Self-managed.  
+  Servers the company manages are patched within the remediation timeframes.
+- **Log review and round-the-clock monitoring** (POL-10.12; controls LM-04, LM-05). *Applies when:* Enterprise only. Always included.  
+  Logs are reviewed regularly and security monitoring runs around the clock.
+
+</details>
+
+<details>
+<summary>Questions to adapt this policy</summary>
+
+Ask the owner: Who gets alerted if something looks wrong in production, and at what hours? How do you find out about vulnerabilities today? When was your last pen test?
+
+Profile fields to draw on: Infrastructure, Hosting Platform, Infrastructure operations, Edge and Web Protection, Infrastructure Vulnerability Scanning, Software Vulnerability Scanning, Audit Logging, Security Threat Detection, Penetration Test Status.
+
+</details>
 
 ## Exceptions
 
-Exceptions to this policy are approved by `{{approver}}`, recorded in [requests-and-tickets.csv](../records/requests-and-tickets.csv) as an Exception, and reviewed at the next management review.
+Exceptions to this policy are approved by {{approver: CTO}}, recorded in [requests-and-tickets.csv](../records/requests-and-tickets.csv) as an Exception, and reviewed at the next management review.
 
 ## Revision history
 
