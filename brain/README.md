@@ -16,7 +16,7 @@ Don't edit these files in your company's copy. When the library improves, you ca
 If you created your copy with **Use this template**, add the original as a remote once, then bring in new versions of `brain/` and `tools/`:
 
 ```bash
-git remote add upstream https://github.com/{{owner}}/soc2-compliance-brain.git
+git remote add upstream https://github.com/compliance-brain/soc2-compliance-brain.git
 git fetch upstream
 git checkout upstream/main -- brain tools AGENTS.md
 python3 tools/scope.py   # see whether scope changed
