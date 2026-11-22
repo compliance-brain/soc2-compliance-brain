@@ -1,0 +1,20 @@
+# Runs on every pull request so reviewers can see scope and readiness.
+# It reports only; to block merges until audit-ready, change the last step to --strict.
+name: Compliance check
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Scope
+        run: python3 tools/scope.py
+      - name: Readiness
+        run: python3 tools/check.py

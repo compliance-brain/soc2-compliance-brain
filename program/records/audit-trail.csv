@@ -1,0 +1,5 @@
+Ref,Date,Actor type,Actor,Action,Record affected,Summary,Reviewed by
+AUDT-1,2026-01-05,AI drafted and person approved,{{AI agent}} directed by {{program owner}},Created,Whole repository,"Example: Set up the program from the template, drafted the profile from four context sources and generated the control list. 6 Confirm items open.",{{program owner}}
+AUDT-2,2026-01-06,Person,{{program owner}},Context review,program/context/profile.yaml,"Example: Checked every answer against its sources. Resolved 4 of 6 Confirm items; 2 remain open (data retention period, backup region).",
+AUDT-3,2026-01-08,AI agent,{{AI agent}},Updated,program/policies/POL-05-access-control-policy.md,Example: Replaced the placeholders using the operating manual and questionnaire answers. Opened a pull request for approval.,{{pending}}
+AUDT-4,2026-01-09,Person,{{program owner}},Correction,AUDT-3 · Access Control Policy,Example: The access removal timeframe in the draft was 5 days; our agreed timeframe is 1 business day. Policy updated; the original row stays as it was.,

@@ -1,0 +1,2 @@
+Name,Role,Type,Start date,Background check,Confidentiality signed,Policies acknowledged,Training completed,End date,Access removed,Status
+Example: {{name}},{{role}},Employee,{{date}},Done,Yes,{{date}},{{date}},,,Active

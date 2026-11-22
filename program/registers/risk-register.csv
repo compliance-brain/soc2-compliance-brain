@@ -1,0 +1,3 @@
+ID,Risk,Owner,Likelihood,Impact,Rating,Treatment,Linked controls,Last reviewed,Notes
+R-07,Example: Staff accounts are taken over through phishing or reused passwords,{{Technical Lead}},3,4,12,Reduce,"AC-07, AC-08, HR-03",{{date}},Example row: start from the in-scope risks in scope.md and keep 10 to 20
+R-25,Example: A critical vendor or subservice provider fails or is breached,{{Governance Lead}},2,4,8,Reduce,"VM-01A, VM-03",{{date}},

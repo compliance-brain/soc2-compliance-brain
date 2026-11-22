@@ -1,0 +1,1028 @@
+Field,Option
+Program home,Notion
+Program home,monday.com
+Program home,"Google Workspace (Drive, Docs and Sheets)"
+Program home,Microsoft 365 (SharePoint and OneDrive)
+Program home,GitHub (this repository)
+Program home,Vanta
+Program home,Drata
+Program home,Secureframe
+Program home,Delve
+Program home,Sprinto
+Program home,Other (explain in notes)
+Program home,TBC
+Program home,Unsure
+Agent role,Compliance Manager (executor)
+Agent role,"Compliance Analyst (assessor, drafter and guide)"
+Agent role,Compliance Expert (educator and advisor)
+Agent role,TBC
+Where you'll use it,Slack
+Where you'll use it,Agentic platform
+Where you'll use it,Browser agent
+Where you'll use it,Chat interface
+Where you'll use it,TBC
+Design principles,Minimise manual controls
+Design principles,Prefer existing workflows
+Design principles,No new tools unless necessary
+Design principles,Avoid standing production access
+Design principles,Evidence from source systems
+Design principles,Keep policies concise
+Design principles,No committees just for compliance
+Design principles,Engineering owns technical controls
+Design principles,Optimise for enterprise customer trust
+Check-in rhythm,Daily digest
+Check-in rhythm,Weekly summary
+Check-in rhythm,Fortnightly review
+Check-in rhythm,On request only
+Check-in rhythm,TBC
+Framework Scope,TBC
+Framework Scope,SOC 2 Security
+Framework Scope,SOC 2 Availability
+Framework Scope,SOC 2 Confidentiality
+Framework Scope,SOC 2 Processing Integrity
+Framework Scope,SOC 2 Privacy
+Framework Scope,SOC 1
+Framework Scope,ISO/IEC 27001
+Framework Scope,ISO/IEC 27017
+Framework Scope,ISO/IEC 27018
+Framework Scope,ISO/IEC 27701
+Framework Scope,ISO/IEC 42001
+Framework Scope,NIST CSF
+Framework Scope,NIST SP 800-53
+Framework Scope,NIST AI RMF
+Framework Scope,CIS Controls
+Framework Scope,HIPAA
+Framework Scope,HITRUST CSF
+Framework Scope,PCI DSS
+Framework Scope,GDPR
+Framework Scope,FedRAMP
+Framework Scope,CSA STAR
+Framework Scope,Essential Eight
+Framework Scope,IRAP
+Service Type,TBC
+Service Type,Software as a Service (SaaS)
+Service Type,Platform as a Service (PaaS)
+Service Type,Infrastructure as a Service (IaaS)
+Service Type,Physical Devices
+Service Type,Professional Services
+Service Type,Development Services
+Service Type,Data Services
+Service Type,Other Services
+Target Timeline,ASAP
+Target Timeline,1-3 months
+Target Timeline,3-6 months
+Target Timeline,6-12 months
+Target Timeline,1-3 years
+Target Timeline,Unsure
+Company Stage,TBC
+Company Stage,Startup
+Company Stage,Scaleup
+Company Stage,Enterprise
+Country/Region(s),TBC
+Country/Region(s),United States
+Country/Region(s),European Union
+Country/Region(s),Australia
+Country/Region(s),New Zealand
+Country/Region(s),South-East Asia
+Country/Region(s),South America
+Country/Region(s),Canada
+Country/Region(s),United Kingdom
+Country/Region(s),Middle East
+Country/Region(s),Africa
+Country/Region(s),India
+Country/Region(s),East Asia
+Country/Region(s),Global
+Facilities,None – fully remote
+Facilities,TBC
+Facilities,Office(s) – no in-scope systems
+Facilities,Office(s) with in-scope equipment
+Facilities,On-premises data centre / server room
+Facilities,Colocation data centre
+Facilities,Manufacturing / production site
+Facilities,Warehouse / logistics site
+Facilities,Customer sites (company devices deployed)
+Customer Types,TBC
+Customer Types,Enterprise Healthcare
+Customer Types,Enterprise Finance
+Customer Types,Enterprise General
+Customer Types,Mid-market / SMB
+Customer Types,Government / Public Sector
+Customer Types,Education
+Customer Types,Manufacturing / Industrial
+Customer Types,Technology / SaaS
+Customer Types,Retail / eCommerce
+Customer Types,Consumers (B2C)
+Customer Types,Not-for-profit
+Customer Geography,TBC
+Customer Geography,United States
+Customer Geography,European Union
+Customer Geography,Australia
+Customer Geography,New Zealand
+Customer Geography,South-East Asia
+Customer Geography,South America
+Customer Geography,Canada
+Customer Geography,United Kingdom
+Customer Geography,Middle East
+Customer Geography,Africa
+Customer Geography,India
+Customer Geography,East Asia
+Customer Geography,Global
+Data Handled,TBC
+Data Handled,Customer content
+Data Handled,Personal data
+Data Handled,Health data
+Data Handled,Payment card data
+Data Handled,Financial data
+Data Handled,Credentials and secrets
+Data Handled,Minimal / no customer data
+Regulatory Drivers,None identified
+Regulatory Drivers,TBC
+Regulatory Drivers,HIPAA
+Regulatory Drivers,GDPR
+Regulatory Drivers,APRA CPS 230
+Regulatory Drivers,APRA CPS 234
+Regulatory Drivers,Australian Privacy Act 1988
+Regulatory Drivers,SOCI Act 2018 (critical infrastructure)
+Regulatory Drivers,Consumer Data Right (CDR)
+Regulatory Drivers,NZ Privacy Act 2020
+Regulatory Drivers,UK GDPR
+Regulatory Drivers,CCPA / CPRA
+Regulatory Drivers,US state privacy laws
+Regulatory Drivers,GLBA
+Regulatory Drivers,SOX
+Regulatory Drivers,FERPA
+Regulatory Drivers,PIPEDA (Canada)
+Regulatory Drivers,EU DORA
+Regulatory Drivers,EU NIS2
+Regulatory Drivers,EU AI Act
+Regulatory Drivers,Singapore PDPA
+Operating Cadence,TBC
+Operating Cadence,Ad hoc
+Operating Cadence,Weekly
+Operating Cadence,Monthly
+Operating Cadence,Quarterly
+Release Frequency,TBC
+Release Frequency,Multiple times per day
+Release Frequency,Daily
+Release Frequency,Weekly
+Release Frequency,Bi-weekly
+Release Frequency,Monthly
+Release Frequency,Quarterly
+Release Frequency,Annually
+Release Frequency,N/A – we don't manage changes
+Compliance Goals,Win new enterprise deals
+Compliance Goals,Satisfy a customer mandate
+Compliance Goals,Access new markets
+Compliance Goals,Improve security
+Compliance Goals,Improve operations
+Compliance Goals,Peace of mind
+Compliance Goals,Unsure
+Compliance Stage,Just starting – no formal program yet
+Compliance Stage,Building – some policies and controls in place
+Compliance Stage,Implemented – controls running
+Compliance Stage,not yet audited
+Compliance Stage,First audit underway
+Compliance Stage,Audited before – maintaining and renewing
+Compliance Stage,Unsure
+Existing Compliance,None
+Existing Compliance,TBC
+Existing Compliance,SOC 2 Type 1
+Existing Compliance,SOC 2 Type 2
+Existing Compliance,SOC 1
+Existing Compliance,ISO/IEC 27001
+Existing Compliance,ISO/IEC 27017
+Existing Compliance,ISO/IEC 27018
+Existing Compliance,ISO/IEC 27701
+Existing Compliance,ISO/IEC 42001
+Existing Compliance,NIST CSF
+Existing Compliance,NIST SP 800-53
+Existing Compliance,NIST AI RMF
+Existing Compliance,CIS Controls
+Existing Compliance,HIPAA
+Existing Compliance,HITRUST CSF
+Existing Compliance,PCI DSS
+Existing Compliance,GDPR
+Existing Compliance,FedRAMP
+Existing Compliance,CSA STAR
+Existing Compliance,Essential Eight
+Existing Compliance,IRAP
+Target Compliance,TBC
+Target Compliance,SOC 2 Type 1
+Target Compliance,SOC 2 Type 2
+Target Compliance,SOC 1
+Target Compliance,ISO/IEC 27001
+Target Compliance,ISO/IEC 27017
+Target Compliance,ISO/IEC 27018
+Target Compliance,ISO/IEC 27701
+Target Compliance,ISO/IEC 42001
+Target Compliance,NIST CSF
+Target Compliance,NIST SP 800-53
+Target Compliance,NIST AI RMF
+Target Compliance,CIS Controls
+Target Compliance,HIPAA
+Target Compliance,HITRUST CSF
+Target Compliance,PCI DSS
+Target Compliance,GDPR
+Target Compliance,FedRAMP
+Target Compliance,CSA STAR
+Target Compliance,Essential Eight
+Target Compliance,IRAP
+Penetration Test Status,TBC
+Penetration Test Status,Completed – within the last 12 months
+Penetration Test Status,Completed – more than 12 months ago
+Penetration Test Status,Scheduled
+Penetration Test Status,Approach agreed – pending schedule
+Penetration Test Status,Pending approach
+Penetration Test Status,Not planned
+Penetration Test Approach,TBC
+Penetration Test Approach,Black box
+Penetration Test Approach,Grey box
+Penetration Test Approach,White box
+Penetration Test Approach,Human-led (manual)
+Penetration Test Approach,AI-performed (autonomous)
+Penetration Test Approach,AI-assisted with human in the loop
+Penetration Test Approach,PTaaS / continuous testing
+Penetration Test Approach,Bug bounty / crowdsourced
+Penetration Test Approach,Red team exercise
+Product Status,Not built yet
+Product Status,In development
+Product Status,Live – early customers
+Product Status,Live – established customers
+Product Status,TBC
+Product Status,Unsure
+Infrastructure,None / not used
+Infrastructure,TBC
+Infrastructure,Amazon Web Services (AWS)
+Infrastructure,Google Cloud (GCP)
+Infrastructure,Microsoft Azure
+Infrastructure,Oracle Cloud Infrastructure (OCI)
+Infrastructure,IBM Cloud
+Infrastructure,Alibaba Cloud
+Infrastructure,DigitalOcean
+Infrastructure,Akamai Cloud (Linode)
+Infrastructure,Vultr
+Infrastructure,Hetzner
+Infrastructure,OVHcloud
+Infrastructure,Scaleway
+Infrastructure,UpCloud
+Infrastructure,CoreWeave
+Infrastructure,On-premises
+Hosting Platform,None / not used
+Hosting Platform,TBC
+Hosting Platform,Vercel
+Hosting Platform,Heroku
+Hosting Platform,Netlify
+Hosting Platform,Render
+Hosting Platform,Railway
+Hosting Platform,Fly.io
+Hosting Platform,DigitalOcean App Platform
+Hosting Platform,AWS Elastic Beanstalk
+Hosting Platform,AWS App Runner
+Hosting Platform,AWS Amplify
+Hosting Platform,Google Cloud Run
+Hosting Platform,Google App Engine
+Hosting Platform,Firebase App Hosting
+Hosting Platform,Azure App Service
+Hosting Platform,Azure Container Apps
+Hosting Platform,Cloudflare Workers
+Hosting Platform,Cloudflare Pages
+Hosting Platform,Red Hat OpenShift
+Hosting Platform,Platform.sh
+Hosting Platform,WP Engine
+Hosting Platform,Kinsta
+Databases,None / not used
+Databases,TBC
+Databases,Amazon RDS
+Databases,Amazon Aurora
+Databases,Amazon DynamoDB
+Databases,Amazon DocumentDB
+Databases,Amazon Redshift
+Databases,Amazon ElastiCache
+Databases,Google Cloud SQL
+Databases,Google AlloyDB
+Databases,Google Spanner
+Databases,Google Firestore
+Databases,Firebase Realtime Database
+Databases,Google Bigtable
+Databases,Google BigQuery
+Databases,Azure SQL Database
+Databases,Azure SQL Managed Instance
+Databases,Azure Database for PostgreSQL
+Databases,Azure Database for MySQL
+Databases,Azure Cosmos DB
+Databases,MongoDB Atlas
+Databases,Snowflake
+Databases,Supabase
+Databases,Neon
+Databases,PlanetScale
+Databases,CockroachDB Cloud
+Databases,Redis Cloud
+Databases,Aiven
+Databases,DigitalOcean Managed Databases
+Databases,Databricks
+Databases,ClickHouse Cloud
+Databases,PostgreSQL
+Databases,MySQL
+Databases,MariaDB
+Databases,Microsoft SQL Server
+Databases,Oracle Database
+Databases,MongoDB
+Databases,Redis
+Databases,Elasticsearch
+Workspace,None / not used
+Workspace,TBC
+Workspace,Google Workspace
+Workspace,Microsoft 365
+Workspace,Zoho Workplace
+Workspace,Proton Workspace
+Workspace,Slack
+Workspace,Microsoft Teams
+Workspace,Zoom Workplace
+Workspace,Cisco Webex
+Workspace,Mattermost
+Workspace,Rocket.Chat
+Compliance Automation,None / not used
+Compliance Automation,TBC
+Compliance Automation,Vanta
+Compliance Automation,Drata
+Compliance Automation,Secureframe
+Compliance Automation,Sprinto
+Compliance Automation,Thoropass
+Compliance Automation,Scytale
+Compliance Automation,Scrut Automation
+Compliance Automation,Oneleet
+Compliance Automation,Comp AI
+Compliance Automation,TrustCloud
+Compliance Automation,AuditBoard
+Compliance Automation,Hyperproof
+Compliance Automation,LogicGate Risk Cloud
+Compliance Automation,ServiceNow Integrated Risk Management
+Compliance Automation,OneTrust
+Compliance Automation,ISMS.online
+Compliance Automation,Eramba
+AI Models and Platforms,None / not used
+AI Models and Platforms,TBC
+AI Models and Platforms,OpenAI API
+AI Models and Platforms,ChatGPT
+AI Models and Platforms,OpenAI Agent Builder
+AI Models and Platforms,Anthropic API
+AI Models and Platforms,Claude
+AI Models and Platforms,Claude Code
+AI Models and Platforms,Google Gemini API
+AI Models and Platforms,Google Gemini
+AI Models and Platforms,Google Gemini Enterprise Agent Platform
+AI Models and Platforms,Amazon Bedrock
+AI Models and Platforms,Amazon SageMaker AI
+AI Models and Platforms,Microsoft Foundry
+AI Models and Platforms,Azure OpenAI
+AI Models and Platforms,Microsoft Copilot Studio
+AI Models and Platforms,Microsoft 365 Copilot
+AI Models and Platforms,GitHub Copilot
+AI Models and Platforms,Cursor
+AI Models and Platforms,Mistral AI
+AI Models and Platforms,Cohere
+AI Models and Platforms,Hugging Face Inference Endpoints
+AI Models and Platforms,Together AI
+AI Models and Platforms,Fireworks AI
+AI Models and Platforms,GroqCloud
+AI Models and Platforms,Replicate
+AI Models and Platforms,Databricks Mosaic AI
+AI Models and Platforms,Snowflake Cortex AI
+AI Models and Platforms,Salesforce Agentforce
+AI Models and Platforms,LangSmith
+AI Models and Platforms,CrewAI
+AI Models and Platforms,Dify
+AI Models and Platforms,Flowise
+AI Models and Platforms,n8n
+AI Models and Platforms,Zapier Agents
+AI Models and Platforms,Relevance AI
+AI Models and Platforms,Lindy
+AI Models and Platforms,Dust
+AI Models and Platforms,Ollama
+AI Models and Platforms,vLLM
+Backups and Recovery,None / not used
+Backups and Recovery,TBC
+Backups and Recovery,AWS Backup
+Backups and Recovery,AWS Elastic Disaster Recovery
+Backups and Recovery,Amazon RDS automated backups
+Backups and Recovery,Amazon DynamoDB point-in-time recovery
+Backups and Recovery,Azure Backup
+Backups and Recovery,Azure Site Recovery
+Backups and Recovery,Azure SQL automated backups
+Backups and Recovery,Google Cloud Backup and DR
+Backups and Recovery,Google Cloud SQL backups
+Backups and Recovery,MongoDB Atlas Cloud Backup
+Backups and Recovery,Supabase Backups
+Backups and Recovery,Veeam Backup & Replication
+Backups and Recovery,Veeam Data Cloud
+Backups and Recovery,Acronis Cyber Protect
+Backups and Recovery,Druva
+Backups and Recovery,Commvault Cloud
+Backups and Recovery,Rubrik Security Cloud
+Backups and Recovery,Cohesity DataProtect
+Backups and Recovery,N-able Cove Data Protection
+Backups and Recovery,Datto SIRIS
+Backups and Recovery,Rewind
+Backups and Recovery,Keepit
+Backups and Recovery,Backblaze Computer Backup
+Backups and Recovery,pgBackRest
+Backups and Recovery,Restic
+Backups and Recovery,BorgBackup
+Backups and Recovery,Velero
+Edge and Web Protection,None / not used
+Edge and Web Protection,TBC
+Edge and Web Protection,Cloudflare WAF
+Edge and Web Protection,Cloudflare DDoS Protection
+Edge and Web Protection,AWS WAF
+Edge and Web Protection,AWS Shield
+Edge and Web Protection,Amazon CloudFront
+Edge and Web Protection,Google Cloud Armor
+Edge and Web Protection,Google Cloud CDN
+Edge and Web Protection,Azure Web Application Firewall
+Edge and Web Protection,Azure DDoS Protection
+Edge and Web Protection,Azure Front Door
+Edge and Web Protection,Fastly Next-Gen WAF
+Edge and Web Protection,Fastly DDoS Protection
+Edge and Web Protection,Akamai App & API Protector
+Edge and Web Protection,Akamai Prolexic
+Edge and Web Protection,Imperva WAF
+Edge and Web Protection,Imperva DDoS Protection
+Edge and Web Protection,F5 Advanced WAF
+Edge and Web Protection,F5 Distributed Cloud WAAP
+Edge and Web Protection,Fortinet FortiWeb
+Edge and Web Protection,Sucuri Website Firewall
+Identity and Authentication,None / not used
+Identity and Authentication,TBC
+Identity and Authentication,Okta Workforce Identity
+Identity and Authentication,Auth0
+Identity and Authentication,Microsoft Entra ID
+Identity and Authentication,Microsoft Entra External ID
+Identity and Authentication,Azure AD B2C
+Identity and Authentication,Google Workspace
+Identity and Authentication,Google Cloud Identity
+Identity and Authentication,Google Cloud Identity Platform
+Identity and Authentication,Firebase Authentication
+Identity and Authentication,AWS IAM Identity Center
+Identity and Authentication,Amazon Cognito
+Identity and Authentication,JumpCloud
+Identity and Authentication,OneLogin
+Identity and Authentication,PingOne
+Identity and Authentication,PingFederate
+Identity and Authentication,Cisco Duo
+Identity and Authentication,Keycloak
+Identity and Authentication,Authentik
+Identity and Authentication,Clerk
+Identity and Authentication,WorkOS
+Identity and Authentication,Supabase Auth
+Identity and Authentication,FusionAuth
+Identity and Authentication,Stytch
+Identity and Authentication,Descope
+Password Manager,None / not used
+Password Manager,TBC
+Password Manager,1Password
+Password Manager,Bitwarden
+Password Manager,Keeper
+Password Manager,Dashlane
+Password Manager,LastPass
+Password Manager,NordPass
+Password Manager,Proton Pass
+Password Manager,Zoho Vault
+Password Manager,RoboForm
+Password Manager,Passbolt
+Password Manager,Passwordstate
+Password Manager,KeePass
+Password Manager,KeePassXC
+Application Secrets and Encryption,None / not used
+Application Secrets and Encryption,TBC
+Application Secrets and Encryption,AWS Secrets Manager
+Application Secrets and Encryption,AWS Systems Manager Parameter Store
+Application Secrets and Encryption,AWS Key Management Service (KMS)
+Application Secrets and Encryption,AWS CloudHSM
+Application Secrets and Encryption,Azure Key Vault
+Application Secrets and Encryption,Azure Managed HSM
+Application Secrets and Encryption,Google Secret Manager
+Application Secrets and Encryption,Google Cloud KMS
+Application Secrets and Encryption,Google Cloud HSM
+Application Secrets and Encryption,HashiCorp Vault
+Application Secrets and Encryption,HCP Vault Secrets
+Application Secrets and Encryption,Doppler
+Application Secrets and Encryption,Infisical
+Application Secrets and Encryption,Akeyless
+Application Secrets and Encryption,CyberArk Conjur
+Application Secrets and Encryption,1Password Secrets Automation
+Application Secrets and Encryption,Bitwarden Secrets Manager
+Application Secrets and Encryption,Keeper Secrets Manager
+Application Secrets and Encryption,SOPS
+Privileged Access Management,None / not used
+Privileged Access Management,TBC
+Privileged Access Management,CyberArk Privileged Access Manager
+Privileged Access Management,BeyondTrust Password Safe
+Privileged Access Management,BeyondTrust Privileged Remote Access
+Privileged Access Management,Delinea Secret Server
+Privileged Access Management,Delinea Privilege Manager
+Privileged Access Management,Microsoft Entra Privileged Identity Management
+Privileged Access Management,Teleport
+Privileged Access Management,StrongDM
+Privileged Access Management,Okta Privileged Access
+Privileged Access Management,KeeperPAM
+Privileged Access Management,ManageEngine PAM360
+Privileged Access Management,WALLIX Bastion
+Privileged Access Management,senhasegura
+Device Management,None / not used
+Device Management,TBC
+Device Management,Microsoft Intune
+Device Management,Jamf Pro
+Device Management,Jamf Now
+Device Management,Kandji
+Device Management,Mosyle
+Device Management,Google Endpoint Management
+Device Management,JumpCloud Device Management
+Device Management,Omnissa Workspace ONE UEM
+Device Management,IBM MaaS360
+Device Management,Cisco Meraki Systems Manager
+Device Management,ManageEngine Endpoint Central
+Device Management,Hexnode UEM
+Device Management,Scalefusion
+Device Management,SOTI MobiControl
+Device Management,Rippling Device Management
+Device Management,Fleet
+Device Management,NinjaOne
+Endpoint Protection,None / not used
+Endpoint Protection,TBC
+Endpoint Protection,Microsoft Defender for Endpoint
+Endpoint Protection,Microsoft Defender for Business
+Endpoint Protection,Microsoft Defender Antivirus
+Endpoint Protection,CrowdStrike Falcon
+Endpoint Protection,SentinelOne Singularity Endpoint
+Endpoint Protection,Sophos Intercept X
+Endpoint Protection,Palo Alto Cortex XDR
+Endpoint Protection,Trend Micro Apex One
+Endpoint Protection,Trend Vision One Endpoint Security
+Endpoint Protection,Bitdefender GravityZone
+Endpoint Protection,ESET PROTECT
+Endpoint Protection,Malwarebytes ThreatDown
+Endpoint Protection,Huntress Managed EDR
+Endpoint Protection,Blackpoint Cyber
+Endpoint Protection,Cisco Secure Endpoint
+Endpoint Protection,Carbon Black
+Endpoint Protection,Fortinet FortiEDR
+Endpoint Protection,Trellix Endpoint Security
+Endpoint Protection,Symantec Endpoint Security
+Code Repository,None / not used
+Code Repository,TBC
+Code Repository,GitHub
+Code Repository,GitHub Enterprise Server
+Code Repository,GitLab.com
+Code Repository,GitLab Self-Managed
+Code Repository,Bitbucket Cloud
+Code Repository,Bitbucket Data Center
+Code Repository,Azure Repos
+Code Repository,AWS CodeCommit
+Code Repository,Gitea
+Code Repository,Forgejo
+Code Repository,Perforce Helix Core
+Build and Deployment / CI/CD,None / not used
+Build and Deployment / CI/CD,TBC
+Build and Deployment / CI/CD,GitHub Actions
+Build and Deployment / CI/CD,GitLab CI/CD
+Build and Deployment / CI/CD,Bitbucket Pipelines
+Build and Deployment / CI/CD,Azure Pipelines
+Build and Deployment / CI/CD,Jenkins
+Build and Deployment / CI/CD,CircleCI
+Build and Deployment / CI/CD,Buildkite
+Build and Deployment / CI/CD,TeamCity
+Build and Deployment / CI/CD,AWS CodePipeline
+Build and Deployment / CI/CD,AWS CodeBuild
+Build and Deployment / CI/CD,AWS CodeDeploy
+Build and Deployment / CI/CD,Google Cloud Build
+Build and Deployment / CI/CD,Google Cloud Deploy
+Build and Deployment / CI/CD,Harness
+Build and Deployment / CI/CD,Octopus Deploy
+Build and Deployment / CI/CD,Argo CD
+Build and Deployment / CI/CD,Flux
+Build and Deployment / CI/CD,Spinnaker
+Build and Deployment / CI/CD,Tekton
+Build and Deployment / CI/CD,Vercel
+Build and Deployment / CI/CD,Netlify
+Build and Deployment / CI/CD,Render
+Infrastructure Configuration,None / not used
+Infrastructure Configuration,TBC
+Infrastructure Configuration,Terraform
+Infrastructure Configuration,HCP Terraform
+Infrastructure Configuration,OpenTofu
+Infrastructure Configuration,AWS CloudFormation
+Infrastructure Configuration,AWS CDK
+Infrastructure Configuration,Azure Resource Manager
+Infrastructure Configuration,Azure Bicep
+Infrastructure Configuration,Pulumi
+Infrastructure Configuration,Ansible
+Infrastructure Configuration,Red Hat Ansible Automation Platform
+Infrastructure Configuration,Puppet
+Infrastructure Configuration,Chef Infra
+Infrastructure Configuration,Salt
+Infrastructure Configuration,Crossplane
+Infrastructure Configuration,Google Config Connector
+Infrastructure Configuration,Helm
+Infrastructure Configuration,Kustomize
+Infrastructure Configuration,Spacelift
+Infrastructure Configuration,env0
+Infrastructure Vulnerability Scanning,None / not used
+Infrastructure Vulnerability Scanning,TBC
+Infrastructure Vulnerability Scanning,Tenable Vulnerability Management
+Infrastructure Vulnerability Scanning,Tenable Nessus
+Infrastructure Vulnerability Scanning,Qualys VMDR
+Infrastructure Vulnerability Scanning,Rapid7 InsightVM
+Infrastructure Vulnerability Scanning,Rapid7 Nexpose
+Infrastructure Vulnerability Scanning,Amazon Inspector
+Infrastructure Vulnerability Scanning,Microsoft Defender for Cloud
+Infrastructure Vulnerability Scanning,Google Artifact Analysis
+Infrastructure Vulnerability Scanning,Wiz
+Infrastructure Vulnerability Scanning,Orca Security
+Infrastructure Vulnerability Scanning,CrowdStrike Falcon Exposure Management
+Infrastructure Vulnerability Scanning,Palo Alto Cortex Cloud
+Infrastructure Vulnerability Scanning,Palo Alto Prisma Cloud
+Infrastructure Vulnerability Scanning,Aqua Security
+Infrastructure Vulnerability Scanning,Sysdig Secure
+Infrastructure Vulnerability Scanning,Trivy
+Infrastructure Vulnerability Scanning,Grype
+Infrastructure Vulnerability Scanning,Greenbone / OpenVAS
+Infrastructure Vulnerability Scanning,UpGuard
+Infrastructure Vulnerability Scanning,SecurityScorecard
+Infrastructure Vulnerability Scanning,BitSight
+Infrastructure Vulnerability Scanning,Microsoft Defender External Attack Surface Management
+Infrastructure Vulnerability Scanning,Palo Alto Cortex Xpanse
+Infrastructure Vulnerability Scanning,ProjectDiscovery Nuclei
+Software Vulnerability Scanning,None / not used
+Software Vulnerability Scanning,TBC
+Software Vulnerability Scanning,Code: GitHub Code Security / CodeQL
+Software Vulnerability Scanning,Code: GitLab SAST
+Software Vulnerability Scanning,Code: Snyk Code
+Software Vulnerability Scanning,Code: Semgrep
+Software Vulnerability Scanning,Code: SonarQube Cloud
+Software Vulnerability Scanning,Code: SonarQube Server
+Software Vulnerability Scanning,Code: Checkmarx One
+Software Vulnerability Scanning,Code: Veracode Static Analysis
+Software Vulnerability Scanning,Code: Black Duck Coverity
+Software Vulnerability Scanning,Code: Black Duck Polaris
+Software Vulnerability Scanning,Code: OpenText Fortify
+Software Vulnerability Scanning,Code: HCL AppScan
+Software Vulnerability Scanning,Code: Amazon Q Developer
+Software Vulnerability Scanning,Code: Bandit
+Software Vulnerability Scanning,Code: Brakeman
+Software Vulnerability Scanning,Code: gosec
+Software Vulnerability Scanning,Dependency: GitHub Dependabot
+Software Vulnerability Scanning,Dependency: GitLab Dependency Scanning
+Software Vulnerability Scanning,Dependency: Snyk Open Source
+Software Vulnerability Scanning,Dependency: Mend SCA
+Software Vulnerability Scanning,Dependency: Black Duck SCA
+Software Vulnerability Scanning,Dependency: Sonatype Lifecycle
+Software Vulnerability Scanning,Dependency: JFrog Xray
+Software Vulnerability Scanning,Dependency: Checkmarx SCA
+Software Vulnerability Scanning,Dependency: Veracode SCA
+Software Vulnerability Scanning,Dependency: Semgrep Supply Chain
+Software Vulnerability Scanning,Dependency: OWASP Dependency-Check
+Software Vulnerability Scanning,Dependency: OWASP Dependency-Track
+Software Vulnerability Scanning,Dependency: Trivy
+Software Vulnerability Scanning,Dependency: Grype
+Software Vulnerability Scanning,Dependency: OSV-Scanner
+Software Vulnerability Scanning,Dependency: Socket
+Software Vulnerability Scanning,Dependency: Endor Labs
+Software Vulnerability Scanning,Dependency: Aikido Security
+Software Vulnerability Scanning,Web app: Burp Suite Professional
+Software Vulnerability Scanning,Web app: Burp Suite DAST
+Software Vulnerability Scanning,Web app: OWASP ZAP
+Software Vulnerability Scanning,Web app: Invicti
+Software Vulnerability Scanning,Web app: Acunetix
+Software Vulnerability Scanning,Web app: Rapid7 InsightAppSec
+Software Vulnerability Scanning,Web app: Qualys Web Application Scanning
+Software Vulnerability Scanning,Web app: Tenable Web App Scanning
+Software Vulnerability Scanning,Web app: Detectify
+Software Vulnerability Scanning,Web app: Intruder
+Software Vulnerability Scanning,Web app: Probely
+Software Vulnerability Scanning,Web app: Pentest-Tools.com
+Software Vulnerability Scanning,Web app: StackHawk
+Cloud Configuration Monitoring,None / not used
+Cloud Configuration Monitoring,TBC
+Cloud Configuration Monitoring,AWS Config
+Cloud Configuration Monitoring,AWS Security Hub
+Cloud Configuration Monitoring,Microsoft Defender for Cloud
+Cloud Configuration Monitoring,Azure Policy
+Cloud Configuration Monitoring,Google Security Command Center
+Cloud Configuration Monitoring,Wiz
+Cloud Configuration Monitoring,Orca Security
+Cloud Configuration Monitoring,Palo Alto Cortex Cloud
+Cloud Configuration Monitoring,Palo Alto Prisma Cloud
+Cloud Configuration Monitoring,Trend Vision One Cloud Risk Management
+Cloud Configuration Monitoring,Trend Micro Cloud One Conformity
+Cloud Configuration Monitoring,Lacework FortiCNAPP
+Cloud Configuration Monitoring,Check Point CloudGuard
+Cloud Configuration Monitoring,CrowdStrike Falcon Cloud Security
+Cloud Configuration Monitoring,Datadog Cloud Security Management
+Cloud Configuration Monitoring,Tenable Cloud Security
+Cloud Configuration Monitoring,Sysdig Secure
+Cloud Configuration Monitoring,Prowler
+Cloud Configuration Monitoring,ScoutSuite
+Cloud Configuration Monitoring,Steampipe
+Audit Logging,None / not used
+Audit Logging,TBC
+Audit Logging,Amazon CloudWatch Logs
+Audit Logging,AWS CloudTrail
+Audit Logging,Amazon Security Lake
+Audit Logging,Azure Monitor Logs
+Audit Logging,Azure Activity Log
+Audit Logging,Microsoft Purview Audit
+Audit Logging,Google Cloud Logging
+Audit Logging,Google Cloud Audit Logs
+Audit Logging,Datadog Logs
+Audit Logging,Splunk Cloud Platform
+Audit Logging,Splunk Enterprise
+Audit Logging,Elastic Cloud
+Audit Logging,Elasticsearch
+Audit Logging,OpenSearch
+Audit Logging,Amazon OpenSearch Service
+Audit Logging,Sumo Logic
+Audit Logging,Graylog
+Audit Logging,Grafana Loki
+Audit Logging,Better Stack Logs
+Audit Logging,Axiom
+Audit Logging,Papertrail
+Audit Logging,Loggly
+Audit Logging,Logz.io
+Audit Logging,New Relic Logs
+Security Threat Detection,None / not used
+Security Threat Detection,TBC
+Security Threat Detection,Microsoft Sentinel
+Security Threat Detection,Microsoft Defender XDR
+Security Threat Detection,Amazon GuardDuty
+Security Threat Detection,Google Security Operations
+Security Threat Detection,Google Security Command Center
+Security Threat Detection,Splunk Enterprise Security
+Security Threat Detection,Elastic Security
+Security Threat Detection,Sumo Logic Cloud SIEM
+Security Threat Detection,Datadog Cloud SIEM
+Security Threat Detection,CrowdStrike Falcon Next-Gen SIEM
+Security Threat Detection,Palo Alto Cortex XSIAM
+Security Threat Detection,Palo Alto Cortex XDR
+Security Threat Detection,SentinelOne Singularity
+Security Threat Detection,IBM QRadar SIEM
+Security Threat Detection,Rapid7 InsightIDR
+Security Threat Detection,Exabeam
+Security Threat Detection,Securonix
+Security Threat Detection,Wazuh
+Security Threat Detection,Panther
+Security Threat Detection,Arctic Wolf
+Security Threat Detection,Expel
+Security Threat Detection,Red Canary
+Security Threat Detection,Huntress Managed SIEM
+Security Threat Detection,Suricata
+Security Threat Detection,Snort
+Security Threat Detection,Security Onion
+Availability Monitoring,None / not used
+Availability Monitoring,TBC
+Availability Monitoring,Datadog
+Availability Monitoring,New Relic
+Availability Monitoring,Dynatrace
+Availability Monitoring,Amazon CloudWatch
+Availability Monitoring,Google Cloud Monitoring
+Availability Monitoring,Azure Monitor
+Availability Monitoring,Azure Application Insights
+Availability Monitoring,Grafana Cloud
+Availability Monitoring,Prometheus
+Availability Monitoring,Grafana
+Availability Monitoring,Zabbix
+Availability Monitoring,PRTG
+Availability Monitoring,Nagios
+Availability Monitoring,Icinga
+Availability Monitoring,LogicMonitor
+Availability Monitoring,Site24x7
+Availability Monitoring,SolarWinds Observability
+Availability Monitoring,Sentry
+Availability Monitoring,Elastic APM
+Availability Monitoring,Honeycomb
+Availability Monitoring,Better Stack Uptime
+Availability Monitoring,UptimeRobot
+Availability Monitoring,Pingdom
+Availability Monitoring,Checkly
+Auto-scaling,TBC
+Auto-scaling,Auto-scaling configured
+Auto-scaling,Partly auto-scaled
+Auto-scaling,Manual scaling
+Auto-scaling,Fixed capacity
+Auto-scaling,Not applicable
+Status Page,None / not used
+Status Page,TBC
+Status Page,Atlassian Statuspage
+Status Page,Better Stack Status Pages
+Status Page,Instatus
+Status Page,incident.io Status Pages
+Status Page,Status.io
+Status Page,StatusCake
+Status Page,UptimeRobot Status Pages
+Status Page,Statuspal
+Status Page,Sorry
+Status Page,PagerDuty Status Pages
+Status Page,Hund
+Status Page,OpenStatus
+Status Page,Cachet
+Status Page,Upptime
+Status Page,Custom status page
+HR System,None / not used
+HR System,TBC
+HR System,BambooHR
+HR System,Rippling
+HR System,Gusto
+HR System,Deel
+HR System,HiBob
+HR System,Workday HCM
+HR System,Personio
+HR System,Justworks
+HR System,ADP Workforce Now
+HR System,Paylocity
+HR System,Paycor
+HR System,UKG Pro
+HR System,SAP SuccessFactors
+HR System,Oracle Fusion Cloud HCM
+HR System,Remote
+HR System,Oyster
+HR System,Employment Hero
+HR System,Humaans
+HR System,TriNet
+HR System,Factorial
+HR System,Sage HR
+HR System,Namely
+HR System,Zoho People
+HR System,Microsoft Dynamics 365 Human Resources
+Ticketing,None / not used
+Ticketing,TBC
+Ticketing,Jira
+Ticketing,Jira Service Management
+Ticketing,Linear
+Ticketing,GitHub Issues
+Ticketing,GitLab Issues
+Ticketing,Azure Boards
+Ticketing,Asana
+Ticketing,ClickUp
+Ticketing,monday.com
+Ticketing,ServiceNow
+Ticketing,Zendesk
+Ticketing,Freshdesk
+Ticketing,Freshservice
+Ticketing,Intercom
+Ticketing,HubSpot Service Hub
+Ticketing,Shortcut
+Ticketing,YouTrack
+Ticketing,Trello
+Ticketing,Notion
+Ticketing,Help Scout
+Ticketing,Front
+Ticketing,Halo ITSM
+Ticketing,ManageEngine ServiceDesk Plus
+Knowledge Management,None / not used
+Knowledge Management,TBC
+Knowledge Management,Google Drive
+Knowledge Management,Microsoft SharePoint
+Knowledge Management,Microsoft OneDrive
+Knowledge Management,Notion
+Knowledge Management,Confluence
+Knowledge Management,Dropbox
+Knowledge Management,Box
+Knowledge Management,Egnyte
+Knowledge Management,Coda
+Knowledge Management,Slab
+Knowledge Management,Guru
+Knowledge Management,Nuclino
+Knowledge Management,GitBook
+Knowledge Management,Document360
+Knowledge Management,SharePoint-based Microsoft 365 document libraries
+Data Loss Prevention,None / not used
+Data Loss Prevention,TBC
+Data Loss Prevention,Microsoft Purview Data Loss Prevention
+Data Loss Prevention,Microsoft Purview Data Map
+Data Loss Prevention,Google Sensitive Data Protection
+Data Loss Prevention,Google Workspace DLP
+Data Loss Prevention,Amazon Macie
+Data Loss Prevention,BigID
+Data Loss Prevention,Cyera
+Data Loss Prevention,Varonis
+Data Loss Prevention,Securiti
+Data Loss Prevention,Symantec Data Loss Prevention
+Data Loss Prevention,Forcepoint DLP
+Data Loss Prevention,Netskope One DLP
+Data Loss Prevention,Zscaler Data Loss Prevention
+Data Loss Prevention,Palo Alto Enterprise DLP
+Data Loss Prevention,Cloudflare Data Loss Prevention
+Data Loss Prevention,Nightfall AI
+Data Loss Prevention,Proofpoint Enterprise DLP
+Data Loss Prevention,Endpoint Protector
+Hosting responsibility,TBC
+Hosting responsibility,Provider-hosted
+Hosting responsibility,Shared
+Hosting responsibility,Customer-hosted
+Hosting responsibility,Unsure
+Tenancy & isolation,TBC
+Tenancy & isolation,Multi-tenant
+Tenancy & isolation,Isolated
+Tenancy & isolation,Dedicated
+Tenancy & isolation,Unsure
+Data minimisation,TBC
+Data minimisation,Broad
+Data minimisation,Purpose-limited
+Data minimisation,Minimised
+Data minimisation,Unsure
+Data control boundary,TBC
+Data control boundary,Provider-controlled
+Data control boundary,Shared
+Data control boundary,Customer-controlled
+Data control boundary,Unsure
+Availability responsibility,TBC
+Availability responsibility,Best efforts
+Availability responsibility,Targeted availability
+Availability responsibility,Committed availability
+Availability responsibility,Unsure
+Integration surface,TBC
+Integration surface,Closed
+Integration surface,Integrated
+Integration surface,API-first / extensible
+Integration surface,Unsure
+AI reliance,TBC
+AI reliance,Peripheral
+AI reliance,Assistive
+AI reliance,AI-native
+AI reliance,Agentic
+AI reliance,Unsure
+Customer administration,TBC
+Customer administration,Customer-managed
+Customer administration,Shared
+Customer administration,Provider-managed
+Customer administration,Unsure
+Responsibility for outcomes,TBC
+Responsibility for outcomes,Customer-directed
+Responsibility for outcomes,Shared
+Responsibility for outcomes,Provider-reliant
+Responsibility for outcomes,Unsure
+Service standardisation,TBC
+Service standardisation,Standardised
+Service standardisation,Configurable
+Service standardisation,Customised / managed
+Service standardisation,Unsure
+Provider access to customer data,TBC
+Provider access to customer data,Routine
+Provider access to customer data,Exception-only
+Provider access to customer data,Technically restricted
+Provider access to customer data,Unsure
+Access ownership,TBC
+Access ownership,Distributed
+Access ownership,Federated
+Access ownership,Centralised
+Access ownership,Unsure
+Change management,TBC
+Change management,Traditional approval
+Change management,Agile
+Change management,DevSecOps
+Change management,Empowered developers
+Change management,Unsure
+Infrastructure operations,TBC
+Infrastructure operations,Self-managed
+Infrastructure operations,Managed / PaaS
+Infrastructure operations,Serverless
+Infrastructure operations,Unsure
+Workforce model,TBC
+Workforce model,Office-first
+Workforce model,Hybrid
+Workforce model,Remote-first
+Workforce model,Unsure
+Endpoint model,TBC
+Endpoint model,Corporate managed
+Endpoint model,Mixed
+Endpoint model,BYOD
+Endpoint model,Unsure
+Privileged & production access,TBC
+Privileged & production access,Standing
+Privileged & production access,Temporary / elevated
+Privileged & production access,JIT
+Privileged & production access,Unsure
+Risk management,TBC
+Risk management,Periodic
+Risk management,Hybrid
+Risk management,Continuous
+Risk management,Unsure
+Vendor management,TBC
+Vendor management,Centralised
+Vendor management,Federated
+Vendor management,Distributed
+Vendor management,Unsure
+Incident response,TBC
+Incident response,Security-led
+Incident response,Coordinated
+Incident response,Engineering-led
+Incident response,Unsure
+Governance,TBC
+Governance,Formal committees
+Governance,Hybrid
+Governance,Embedded ownership
+Governance,Unsure
+Control execution,TBC
+Control execution,Human / manual
+Control execution,Hybrid
+Control execution,Automated / agentic
+Control execution,Unsure

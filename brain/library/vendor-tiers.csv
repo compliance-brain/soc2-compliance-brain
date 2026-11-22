@@ -1,0 +1,4 @@
+Tier,Applies when,Before onboarding,Review every (months),Each review covers
+Tier 1 – Critical,"Delivers part of your service (a subservice organisation), holds customer data, or can reach production.",Security review; SOC 2 or ISO 27001 report checked; contract with security terms and a DPA where personal data is processed; owner approval.,12,"Latest assurance report and bridge letter, the controls they expect you to run, incidents, and whether their data and access are still right."
+Tier 2 – High,"Holds personal or confidential internal data, or matters to operations, but isn't part of the customer service.",Assurance report or a short security questionnaire; terms checked; DPA where personal data is processed.,12,Assurance or questionnaire refreshed; access and data still needed.
+Tier 3 – Low,No sensitive data and no system access; easy to replace.,Owner approval and an entry in the register.,24,Still in use and still low risk.

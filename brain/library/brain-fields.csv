@@ -1,0 +1,94 @@
+Group,Field,Impact,Answer type,Several allowed,What it is and why it matters
+Where your compliance program lives,Program home,H,List,,Where your agent builds and keeps your program. Pick the tool your team already works in. Note any second tool under What lives where.
+Where your compliance program lives,What lives where,,Text,,"If you use more than one tool, say what goes in each. E.g. policies, risk and vendor registers in Notion; other audit evidence collated in Drive."
+Your Compliance Agent,Agent role,H,List,,What you want the agent to do for you. Manager runs it; Analyst prepares; Expert advises. Manager is recommended once you trust it to act.
+Your Compliance Agent,Where you'll use it,H,List,Yes,"Where you'll work with the agent day to day. Shapes how it reaches you, shares updates and collects what it needs."
+Your Compliance Agent,Design principles,M,List,Yes,"How the agent should approach your compliance. Defaults reflect a lean, engineering-led model. Remove any that don't fit; add your own."
+Guardrails & Rhythm,Point of contact,M,Text,,"Who the agent reports to and asks for approval. Name, role and the best way to reach them."
+Guardrails & Rhythm,Check-in rhythm,L,List,,"How often the agent updates you. Covers progress, open questions and anything waiting on your approval."
+Company Details,Company Name,H,Text,,"The legal entity named on the report. Needed, with Domain, before AI drafts can run."
+Company Details,Domain,H,Text,,"The website AI researches to draft the system description, commitments and boundaries."
+Company Details,Framework Scope,H,List,Yes,"Frameworks in scope, with SOC 2 by Trust Services Criteria. Each adds its own controls and evidence."
+Company Details,Report Type,L,Text,,"Type 1 tests design on a date. Type 2 tests operation over a period, so evidence must span it."
+Company Details,Audit Period,L,Text,,"Type 2 review period as a range, or the Type 1 as-of date. Evidence must fall within it."
+Company Details,Terms of Service,M,Text,,Link to the client's online terms of service. AI reads it for service commitments and SLAs.
+Company Details,Privacy Policy,M,Text,,Link to the client's online privacy policy. AI reads it for data handled and subprocessors.
+Team Details,Governance Lead,M,Text,,"Owns governance and business risk, often the CEO, CFO or COO. Name and title."
+Team Details,Technical Lead,M,Text,,"Owns systems and engineering, often the CTO, CISO, CPO or Head of Engineering. Name and title."
+Team Details,Compliance Owner,H,Text,,"The person accountable for the compliance program, often the governance or technical lead."
+Team Details,Key Parties,M,Text,,"Control owners and others involved: name, title and how they're involved, at a high level."
+Company Context,Service Type,H,List,,"What the report covers and how it's delivered. Shapes system boundaries, controls and the responsibilities customers carry (CUECs)."
+Company Context,Target Timeline,M,List,,"Sets the audit window and readiness runway. Controls must be live, with evidence, before the period starts."
+Company Context,Headcount,M,Text,,"Scales onboarding, training, access reviews and offboarding controls. Also drives auditor sample sizes."
+Company Context,Company Stage,M,List,,Calibrates how formal controls need to be. Lean and automated early; more defined ownership and cadence as you scale.
+Company Context,Country/Region(s),M,List,Yes,"Where you operate and staff are based. Drives privacy, employment and data-transfer obligations, and where evidence is held."
+Company Context,Facilities,M,List,Yes,"Offices, data centres or fully remote. Physical sites add physical security controls; cloud-only teams rely on the provider's report."
+Company Context,Customer Types,M,List,Yes,"Who you sell to sets the bar for assurance. Enterprise and regulated buyers expect stronger contracts, evidence and questionnaire answers."
+Company Context,Customer Geography,M,List,Yes,"Where customers are drives privacy laws, data residency and contract commitments."
+Company Context,Data Handled,M,List,Yes,"The kinds of data your service holds. Sets confidentiality and privacy scope, how data is classified and which laws apply."
+Company Context,Service Commitments,M,Text,,What you promise customers in contracts and SLAs. Paste the clauses or links; the agent pulls out the numbers and tests controls against them.
+Company Context,Regulatory Drivers,M,List,Yes,"Laws and standards beyond SOC 2 that apply. Each adds obligations to map to controls and can widen scope (e.g. HIPAA, GDPR)."
+Company Context,Subservice Providers,M,Text,,"Vendors that deliver part of your service. Sets carve-out vs inclusive, the controls you rely on them for, and whose reports you review."
+Company Context,Operating Cadence,M,List,,"The rhythm leadership meets and aligns on. If it varies, pick the one to align around; reviews and sign-offs are built into it."
+Company Context,Release Frequency,M,List,,"Roughly how often changes reach production. Pick the closest; N/A if you don't ship changes. Shapes change approval, evidence and samples."
+Company Context,Compliance Goals,M,List,Yes,"Why you're doing this: deals, mandates, markets. Sets priorities and how effort is balanced between speed, rigour and customer assurance."
+Company Context,Compliance Stage,H,List,,Where you are with compliance today. From just starting to audited before: sets where the agent focuses and how it helps.
+Company Context,Existing Compliance,M,List,Yes,"Frameworks already in place or certified. Existing controls and evidence are reused, not rebuilt."
+Company Context,Target Compliance,M,List,Yes,"Frameworks you plan to add next. Controls are designed once and mapped across frameworks, so evidence serves every audit."
+Company Context,Known Gaps,M,Text,,Weak spots you already know about. Past audit exceptions and open fixes: the agent tackles these before the auditor finds them.
+Company Context,Planned Changes,L,Text,,"Major changes expected in the next 12 months. New products, regions, tools, hires or funding. The agent adjusts scope ahead of time."
+Company Context,Penetration Test Status,L,List,,Whether an independent test is done or planned. Supports vulnerability management and is a top customer and auditor request.
+Company Context,Penetration Test Approach,L,List,,How testing is done and by whom. Sets how much weight the results carry and how findings are tracked to closure.
+Company Context,Product/Service Description,L,Text,,The products and services the report covers. Anything not named here is out of scope. AI-drafted from the Domain; review before use.
+Company Context,Product Status,H,List,,Whether the product in scope is built and live. A Type 1 needs it live on the as-of date; until then the agent sets product controls for launch.
+System Context,Infrastructure,H,List,Yes,"The cloud and network layer the product runs on. Anchors hardening, patching and network controls; evidence comes from cloud consoles and config."
+System Context,Hosting Platform,H,List,Yes,Where the application is deployed and served. Defines shared responsibilities and a likely subservice organisation in the report.
+System Context,Databases,M,List,Yes,"Where customer data is stored. Drives encryption, backup and data access controls at the heart of the system boundary."
+System Context,Workspace,M,List,Yes,"Email, documents and collaboration suite. Holds sensitive data too; sharing, MFA and admin settings are tested."
+System Context,Compliance Automation,M,List,Yes,Platform that tracks controls and evidence. Sets how much evidence is automated and where the auditor looks first.
+System Context,AI Models and Platforms,M,List,Yes,"AI models and services in product or workplace. Adds AI governance, data-use and vendor controls; providers may be subservice organisations."
+System Context,Backups and Recovery,L,List,Yes,"How data and systems are backed up and restored. Drives backup, restore testing and DR controls; evidence from backup logs and restore tests."
+System Context,Edge and Web Protection,L,List,Yes,"CDN, WAF and DDoS protection at the perimeter. Supports network security and availability; evidence from edge configuration and alerts."
+System Context,Identity and Authentication,L,List,Yes,"The identity provider staff sign in with. Central to MFA, provisioning and offboarding; the main source for user lists and reviews."
+System Context,Password Manager,L,List,Yes,How staff store and share credentials. Supports credential management controls; evidence from vault policies and settings.
+System Context,Application Secrets and Encryption,L,List,Yes,"Where keys, tokens and secrets are held. Drives encryption and key management controls; evidence from KMS or vault configuration."
+System Context,Privileged Access Management,L,List,Yes,How admin and production access is controlled. Shapes standing vs just-in-time access; evidence from approvals and session logs.
+System Context,Device Management,L,List,Yes,"The tool that enrols and configures laptops. Enforces encryption, screen lock and updates; its reports are the device evidence."
+System Context,Endpoint Protection,L,List,Yes,Malware and threat protection on devices. Supports endpoint security controls; evidence from console coverage and alerts.
+System Context,Code Repository,L,List,Yes,Where source code lives and is reviewed. Anchors change control: branch protection and pull request reviews are the core evidence.
+System Context,Build and Deployment / CI/CD,L,List,Yes,How code is tested and released. Pipeline gates can replace manual approvals; deployment logs become change evidence.
+System Context,Infrastructure Configuration,L,List,Yes,"How infrastructure is defined and changed. Infrastructure as code brings infra changes under review, with evidence in the repo."
+System Context,Infrastructure Vulnerability Scanning,L,List,Yes,"Scans hosts, containers and cloud services. Drives vulnerability management and patch SLAs; evidence from scans and remediation tickets."
+System Context,Software Vulnerability Scanning,L,List,Yes,"Scans code, dependencies and web apps. Supports secure development controls; evidence from scan results and fixes in PRs."
+System Context,Cloud Configuration Monitoring,L,List,Yes,Continuous checks of cloud settings. Catches drift between reviews; findings and dashboards become automated evidence.
+System Context,Audit Logging,L,List,Yes,"Where system and user activity is recorded. Underpins monitoring and investigations; coverage, retention and log access are tested."
+System Context,Security Threat Detection,L,List,Yes,Detects and alerts on suspicious activity. Drives monitoring and incident response; evidence from alerts and triage records.
+System Context,Availability Monitoring,L,List,Yes,"Uptime, performance and error monitoring. Backs availability commitments and incident response; evidence from alerts and history."
+System Context,Auto-scaling,L,List,Yes,Whether production scales automatically with load. Sets whether capacity is managed by configuration or by forecasting (Availability).
+System Context,Status Page,L,List,Yes,How customers hear about outages and maintenance. Evidence for availability commitments and incident communication.
+System Context,HR System,L,List,Yes,"Where joiners, movers and leavers are recorded. Drives account set-up and removal, and the population auditors sample."
+System Context,Ticketing,L,List,Yes,"Where requests, changes and incidents are tracked. The evidence trail for access requests, changes and incidents."
+System Context,Knowledge Management,L,List,Yes,"Where policies, procedures and runbooks live. The home for policy evidence, approvals and staff acknowledgements."
+System Context,Data Loss Prevention,L,List,Yes,Tools that stop sensitive data leaving. Supports confidentiality controls; evidence from DLP policies and incidents.
+Compliance Shapes – Service & Customer,Hosting responsibility,H,List,,"Who operates the environment the service runs in. Sets which controls you own, which customers own (CUECs), and where the system boundary sits."
+Compliance Shapes – Service & Customer,Tenancy & isolation,M,List,,"How customers are separated from each other. Drives segregation and data access controls, and how isolation is evidenced to customers."
+Compliance Shapes – Service & Customer,Data minimisation,M,List,,"How much sensitive data the service takes in. Less data means fewer privacy, retention and encryption controls to design and evidence."
+Compliance Shapes – Service & Customer,Data control boundary,M,List,,"Who decides where customer data is stored. Shapes residency commitments, encryption keys and the data-related CUECs."
+Compliance Shapes – Service & Customer,Availability responsibility,H,List,,"How much customers rely on the service being up. Drives backup, DR, capacity and monitoring controls, and whether Availability is in scope."
+Compliance Shapes – Service & Customer,Integration surface,M,List,,"How customers connect to the service. APIs and webhooks add key management, secure development and integration CUECs."
+Compliance Shapes – Service & Customer,AI reliance,H,List,,"How central AI is to what customers receive. Adds AI governance, output monitoring and model provider controls as reliance grows."
+Compliance Shapes – Service & Customer,Customer administration,H,List,,Who administers customers' users and settings. Sets whether access CUECs apply or your own admin access controls carry the weight.
+Compliance Shapes – Service & Customer,Responsibility for outcomes,L,List,,"Who owns the results the service produces. Shapes commitments, processing integrity and how much customers must validate outputs."
+Compliance Shapes – Service & Customer,Service standardisation,L,List,,How much the service varies per customer. Custom or managed elements add change and customer-specific controls to evidence.
+Compliance Shapes – Service & Customer,Provider access to customer data,H,List,,"When your people can see customer data. Drives support access, approval and logging controls, and confidentiality commitments."
+Compliance Shapes – Internal Operations,Access ownership,H,List,,Who grants and removes access to systems. Sets whether access evidence comes from one identity provider or from each system owner.
+Compliance Shapes – Internal Operations,Change management,H,List,,"How changes are approved and reach production. Shapes change controls (CC8) and whether evidence lives in pipelines, pull requests or tickets."
+Compliance Shapes – Internal Operations,Infrastructure operations,M,List,,How much of the stack you run yourselves. Managed services mean more reliance on provider reports and fewer hardening controls.
+Compliance Shapes – Internal Operations,Workforce model,L,List,,"Where and how your people work. Shapes physical security, remote access and how onboarding and training are evidenced."
+Compliance Shapes – Internal Operations,Endpoint model,H,List,,Who owns and manages the devices staff use. Managed devices are enforced and evidenced centrally; BYOD needs other safeguards.
+Compliance Shapes – Internal Operations,Privileged & production access,H,List,,How admin and production access is held. Standing access needs reviews and monitoring; JIT access is evidenced by requests and expiry.
+Compliance Shapes – Internal Operations,Risk management,M,List,,How risks are identified and kept current. Sets assessment cadence and whether evidence is a periodic register or ongoing records.
+Compliance Shapes – Internal Operations,Vendor management,M,List,,"Who selects and oversees vendors. Shapes vendor approval and review controls, and who holds the evidence."
+Compliance Shapes – Internal Operations,Incident response,M,List,,"Who leads when something goes wrong. Shapes incident roles, escalation and testing, and where incident records live."
+Compliance Shapes – Internal Operations,Governance,M,List,,How leadership oversees security and compliance. Sets whether oversight is evidenced by committee minutes or by everyday leadership forums.
+Compliance Shapes – Internal Operations,Control execution,H,List,,"Who or what performs routine controls. Automated and agent-run controls move evidence to system logs, with people handling exceptions."

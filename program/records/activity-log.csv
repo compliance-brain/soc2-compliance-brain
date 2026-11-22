@@ -1,0 +1,3 @@
+Date,Activity,Control IDs,Performed by,Result,Evidence link,Next due
+{{date}},Example: Quarterly access review,"AC-03A, AC-05A",{{name}},"Completed, 2 accounts removed",{{evidence folder link}},{{date + 3 months}}
+{{date}},Example: Annual security training,HR-03,{{name}},All staff completed,{{evidence folder link}},{{date + 12 months}}

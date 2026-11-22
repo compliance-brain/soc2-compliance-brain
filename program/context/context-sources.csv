@@ -1,0 +1,11 @@
+Source,Type,Impact,Status,Informs,Link,Owner,Last reviewed,Notes
+Completed security questionnaires,Security questionnaire,High,To find,Company profile; Controls; Policies; Scope and system description,,,,"{{Link your most recent completed questionnaires. AI: extract hosting, data, access, encryption and incident answers; flag anything your controls don't yet back up.}}"
+Terms of service,Legal terms,High,To find,Company profile; Policies; Risk register,,,,"{{Commitments on availability, data use, termination and notice.}}"
+Privacy policy and DPA,Legal terms,High,To find,Company profile; Policies; Vendor register,,,,"{{Data types, retention, subprocessors, breach notice periods, data subject rights.}}"
+Trust or security page,Public claims,High,To find,Controls; Policies,,,,{{Every public claim needs a control and evidence behind it.}}
+Operating manuals and runbooks,Operating docs,High,To find,Controls; Policies; People and access,,,,"{{How deployments, support, onboarding and incidents actually run. Policies should describe this, not an ideal.}}"
+Architecture or system diagram,Architecture,High,To find,Scope and system description; Controls; Risk register,,,,{{Systems in scope and where customer data flows.}}
+Tool and billing list,Vendor and billing,High,To find,Vendor register; People and access,,,,{{Card statements or a software spend export give the most complete vendor list.}}
+Org chart or team list,People,Medium,To find,People and access; Company profile,,,,"{{Owners, approvers and who needs which access.}}"
+Customer contracts and enterprise requirements,Contracts,Medium,To find,Policies; Controls; Risk register,,,,"{{Audit rights, notice periods, data location and security requirements you've agreed to.}}"
+Investor updates or pitch deck,Company and strategy,Medium,To find,Company profile; Risk register,,,,"{{Stage, growth plans and product direction, which set how far ahead the program should look.}}"

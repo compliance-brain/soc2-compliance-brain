@@ -1,0 +1,3 @@
+Vendor,What they provide,Data held,Tier,Assurance,Contract and DPA,Owner,Last review,Next review,Notes
+Example: {{hosting provider}},Hosts the production application,Customer data,Tier 1 – Critical,"SOC 2 Type 2 report, reviewed {{date}}",Online terms and DPA accepted,{{Technical Lead}},{{date}},{{date + 12 months}},Example row: subservice organisation; note the controls it expects you to run
+Example: {{workspace provider}},"Email, documents and calendar",Confidential internal data,Tier 2 – High,SOC 2 report,Online terms and DPA,{{Governance Lead}},{{date}},{{date + 12 months}},

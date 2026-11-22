@@ -1,0 +1,4 @@
+ID,Control,Owner,Frequency,Where it lives,Evidence source,Status,Last operated,Next due,Evidence link,Notes
+GV-01,Example: Information security policies,{{Compliance Owner}},Annually,program/policies/,Policy set; approval and version history,Designed,,{{date}},,Example row: replace with your in-scope controls from scope.md
+AC-03A,Example: User access reviews,{{Technical Lead}},Quarterly,program/templates/access-review-record.md,Completed access review record,Gap,,{{date}},,
+AC-07,Example: MFA enforced,{{Technical Lead}},Configuration,{{identity provider}},Screenshot of the MFA enforcement setting,Operating,{{date}},,{{evidence folder link}},

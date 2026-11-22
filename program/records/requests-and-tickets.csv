@@ -1,0 +1,3 @@
+Ref,Date,Type,Summary,Requested by,Approved by,Status,Closed on,Control IDs,Link
+TKT-1,{{date}},Access request,Example: New engineer needs access to the code repository and hosting,{{name}},{{approver}},Done,{{date}},AC-01A,
+TKT-2,{{date}},Access removal,Example: Contractor finished; remove all access,{{name}},{{approver}},Done,{{date}},AC-02,
