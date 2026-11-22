@@ -84,7 +84,7 @@ With a blank profile you start at 58 controls (Startup, Security only). Naming y
 
 ## Other editions
 
-The same brain is also available as a Google Sheets template and a Notion template. Use whichever fits how your team works; the library and guardrails are the same.
+The same brain is also available as a [Notion template](https://compliance-brain.notion.site) (select Duplicate to copy it into your workspace) and as a Google Sheets template. Use whichever fits how your team works; the library and guardrails are the same.
 
 ## About
 
