@@ -8,7 +8,7 @@
 
 - [ ] Background check done, where lawful
 - [ ] Confidentiality terms signed
-- [ ] Access requested and approved in requests-and-tickets.csv
+- [ ] Access requested and approved in [requests-and-tickets.csv](../records/requests-and-tickets.csv)
 - [ ] Accounts created with MFA enforced
 - [ ] Device enrolled and checked
 - [ ] Policies acknowledged (first week)

@@ -4,7 +4,7 @@
 > **🧭 Guide.** Control GV-02B, plus a light check of the risk register (RM-02A). Use an existing leadership meeting rather than a new committee. When the minutes are final, add a Management review row to the [sign-off log](../records/sign-off-log.csv).
 
 **Date:** `{{date}}`
-**Attendees:** `{{names}}`
+**Attendees:** `{{names: CEO, CTO, Head of Operations}}`
 
 1. Actions from the last review
 2. Policies: approvals and changes needed

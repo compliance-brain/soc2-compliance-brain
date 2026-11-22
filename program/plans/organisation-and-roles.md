@@ -8,9 +8,9 @@
 | Governance Lead | `{{Governance Lead: CEO}}` | Approves policies, vendors and risk acceptances; runs management reviews |
 | Technical Lead | `{{Technical Lead: CTO}}` | Owns systems, production access, changes and platform settings |
 | Compliance Owner | `{{Compliance Owner: CTO}}` | Runs the program, the evidence and the audit |
-| Incident lead | `{{incident lead: CTO}}` |
+| Incident lead | `{{incident lead: CTO}}` | Leads incident response and notifications |
 | Head of Operations | `{{name}}` | People, onboarding and leaving, devices, vendors and finance |
-| Lead Engineer | `{{name}}` | Deployments, scanning, logging and on-call; backup for the CTO | Leads incident response and notifications |
+| Lead Engineer | `{{name}}` | Deployments, scanning, logging and on-call; backup for the CTO |
 | AI agent (if used) | `{{AI tools: Claude}}`, working for the Compliance Owner | Drafts and prepares; approves nothing |
 
 ## Checks and balances

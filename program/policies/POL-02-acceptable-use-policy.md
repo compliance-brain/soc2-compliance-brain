@@ -61,7 +61,7 @@ Staff report lost devices, suspected phishing and other security concerns straig
 ## Add if your setup differs
 
 <details>
-<summary>1 more library statements, and when each applies</summary>
+<summary>1 more library statement, and when each applies</summary>
 
 - **Personal devices** (POL-02.05; controls EP-05). *Applies when:* All stages, when Endpoint model is BYOD or Mixed.  
   Personal devices used for work meet the minimum security settings, and company data is removed from them when the person leaves.

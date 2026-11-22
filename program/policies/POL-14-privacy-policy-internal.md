@@ -16,7 +16,7 @@ Personal information the company collects or processes about customers, their us
 ## Statements and when they apply
 
 <details>
-<summary>8 more library statements, and when each applies</summary>
+<summary>8 library statements, and when each applies</summary>
 
 - **Privacy notice** (POL-14.01; controls PR-01). *Applies when:* All stages, when Privacy is in scope.  
   A privacy notice explains what personal information is collected, why, how it is used and shared, and individuals' rights.

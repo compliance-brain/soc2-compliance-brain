@@ -9,9 +9,9 @@
 > [!WARNING]
 > **✅ Confirm before approval.**
 >
-> - [ ] `{{Confirm: recovery time objective, e.g. 24 hours}}`
-> - [ ] `{{Confirm: recovery point objective, which follows from how often backups run}}`
-> - [ ] `{{Confirm: who can act if the founder is unavailable, and how they get access}}`
+> - [ ] `{{Confirm: recovery time objective (default: 8 hours)}}`
+> - [ ] `{{Confirm: recovery point objective (default: 5 minutes, from point-in-time recovery)}}`
+> - [ ] `{{Confirm: emergency backup (default: Lead Engineer, with break-glass access)}}`
 
 ## Who does what
 
