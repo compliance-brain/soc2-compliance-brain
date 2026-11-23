@@ -87,7 +87,10 @@ The profile ships with the reference company's answers (75 controls). With a bla
 
 ## Other editions
 
-The same brain is also available as a [Notion template](https://compliance-brain.notion.site) (select Duplicate to copy it into your workspace) and as a Google Sheets template. Use whichever fits how your team works; the library and guardrails are the same.
+The same brain is also available in two other editions. Use whichever fits how your team works; the library and guardrails are the same.
+
+- **[Notion template](https://compliance-brain.notion.site):** the same reference program as pages and databases. Open it and select **Duplicate** (the two-squares icon at the top right) to copy it into your workspace.
+- **[Google Sheets](https://docs.google.com/spreadsheets/d/1NX6AUAP7B82_bT6U_t5Lfuj9lZSqD9KQXQ-mO8lz4sI/copy):** the brain as a spreadsheet, starting blank, with scoping that updates live as you answer and AI drafting of the system description. The link opens a copy in your own Google Drive.
 
 ## About
 
